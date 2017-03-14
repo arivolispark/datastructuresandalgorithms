@@ -3,7 +3,7 @@ package datastructuresandalgorithms.arrays;
 import java.util.Arrays;
 
 /**
- * Created by arivolit on 3/13/17.
+ * Created by arivolitirouvingadame on 3/13/17.
  *
  * Given an array of integers, find the minimum and maximum values from the integer array.
  */
