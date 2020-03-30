@@ -1,3 +1,13 @@
+"""
+PROBLEM STATEMENT:
+Given an array of n - 1 integers in the range from 1 to n, find the one number that is missing from the array.
+
+Example:
+Input: 1, 5, 2, 6, 4
+Answer: 3
+"""
+
+
 def find_missing_number(arr):
     n = len(arr)
 
@@ -21,4 +31,3 @@ if __name__ == "__main__":
     arr = 6, 1, 4, 2, 3
     missing_number = find_missing_number(arr)
     print("\n missing_number: ", missing_number, "\t bin(missing_number): ", bin(missing_number))
-
