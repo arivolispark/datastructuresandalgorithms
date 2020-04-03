@@ -35,7 +35,7 @@ class Solution:
             if fast == slow:
                 break
 
-        return fast == 1
+        return slow == 1
 
 
 def calculate_digit_square_sum(n):
