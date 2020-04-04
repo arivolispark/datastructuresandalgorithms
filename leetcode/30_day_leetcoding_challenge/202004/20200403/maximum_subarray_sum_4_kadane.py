@@ -12,18 +12,9 @@ Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 
 
-Approach 1:
-Kadane's algorithm:
-Time:  O(N)
-Space:  O(1)
-
-
-Approach 2:
 Follow up:
-If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-Time:  O(NlogN)
-Space:  O(1)
+If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 """
 
 from typing import List

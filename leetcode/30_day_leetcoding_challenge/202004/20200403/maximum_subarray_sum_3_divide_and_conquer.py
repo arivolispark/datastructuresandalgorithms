@@ -2,11 +2,6 @@ from typing import List
 import math
 
 
-"""
-Time:  O(NlogN)
-Space:  O(1)
-"""
-
 class Solution:
 
     def maxSubArray(self, nums: List[int]) -> int:
