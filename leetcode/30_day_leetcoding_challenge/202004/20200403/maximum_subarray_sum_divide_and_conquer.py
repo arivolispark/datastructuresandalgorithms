@@ -2,6 +2,11 @@ from typing import List
 import math
 
 
+"""
+Time:  O(NlogN)
+Space:  O(1)
+"""
+
 class Solution:
 
     def maxSubArray(self, nums: List[int]) -> int:
@@ -44,7 +49,6 @@ if __name__ == "__main__":
     nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
     #nums = [-2, 1, -3, 44]
     #nums = [1, 2, 3, 4, 5]
-    #nums = [1, 2, 3, 4]
     #nums = [-1, -2]
     print("\n nums: ", nums)
 
