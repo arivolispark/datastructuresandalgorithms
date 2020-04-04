@@ -12,9 +12,9 @@ Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 
 
-Follow up:
-
-If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+Kadane's algorithm
+Time:  O(N)
+Space:  O(1)
 """
 
 from typing import List
@@ -24,19 +24,14 @@ import math
 class Solution:
 
     def maxSubArray(self, nums: List[int]) -> int:
-        if len(nums) == 1:
-            return nums[0]
-
         max_subarray_sum = -math.inf
 
-        length = len(nums)
-
-        subarray = [0 for i in range(length)]
+        subarray = [0 for i in range(len(nums))]
 
         subarray[0] = nums[0]
         max_subarray_sum = max(subarray[0], max_subarray_sum)
 
-        for i in range(1, length):
+        for i in range(1, len(nums)):
             subarray[i] = max(nums[i], subarray[i - 1] + nums[i])
             max_subarray_sum = max(subarray[i], max_subarray_sum)
 
