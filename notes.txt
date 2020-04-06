@@ -1,0 +1,1224 @@
+LUCID MOTORS interview:
+
+
+import java.io.*;
+import java.util.*;
+
+import java.net.*;
+
+/*
+ * To execute Java, please define "static void main" on a class
+ * named Solution.
+ *
+ * If you need more classes, simply define them inline.
+ */
+
+class Solution {
+  public static void main(String[] args) {
+    /*
+    ArrayList<String> strings = new ArrayList<String>();
+    strings.add("Hello, World!");
+    strings.add("Welcome to CoderPad.");
+    strings.add("This pad is running Java " + Runtime.version().feature());
+
+    for (String string : strings) {
+      System.out.println(string);
+    }
+    */
+    
+    /*
+    String ipAddress = null;  //sample IP Address
+    //String ipAddress = "";  //sample IP Address
+    //String ipAddress = "10.0.0.8";  //sample IP Address
+    
+    try {
+        boolean validFlag = validateIPAddress(ipAddress);
+        System.out.println("\n validFlag: " + validFlag);
+    } catch(Exception e) {
+      e.printStackTrace();
+    }  
+    */
+    
+    int profit = getProfit();
+    System.out.println("\n profit: " + profit);
+
+  }
+  
+  public static boolean validateIPAddress(String ipAddress) throws Exception {
+      boolean valid = false;
+    
+      /*
+      if (ipAddress == null || ipAddress.length() == 0) {
+          throw new Exception("\n Null string supplied.  Please supply valid IP Address");
+      } 
+      
+      try {
+         IPAddress ipAddr = new IPAddress(ipAddress);
+         System.out.println("\n ipAddr: " + ipAddr);
+      } catch(Exception e) {
+          e.printStackTrace();
+      }
+      */
+                              
+      return valid;
+  }  
+  
+  public static int getProfit() {
+    //stock_price=[45,10,20,25,15, ,20,25,15]
+    
+    int[] stockPriceArray = new int[] {45, 10, 20, 25, 15, 40, 20, 25,15};
+    
+    int minValue = Integer.MIN_VALUE;
+    int maxValue = Integer.MAX_VALUE;
+    
+    int left = 0;
+    int right = stockPriceArray.length;
+    
+    /**
+     *
+    //PSEUDOCODE:
+    //1.  compare stockPriceArray[0] and stockPriceArray[1] and find out if the value is increasing or decreasing
+      If the stockPriceArray[1] is lesser than stockPriceArray[0], then increment the left index;
+    //
+    
+    
+    //for (int i=0; i<; i++) {
+    //}  
+    */
+
+    
+=====
+
+1. What are the different types of SQL JOINS?
+
+
+    //Table A:
+    //Table B:
+
+    
+    SELECT Id, Name, Salary from EMPLOYEE GROUP BY DepartmentId ORDER BY Salary DECR LIMIT 2;
+    
+    
+    return 0;
+  }
+}
+
+/*
+//Table:  EMPLOYEE
+
++----+-------+--------+--------------+
+| Id | Name  | Salary | DepartmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 85000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
+| 5  | Janet | 69000  | 1            |
+| 6  | Randy | 85000  | 1            |
+| 7  | Will  | 70000  | 1            |
++----+-------+--------+--------------+
+*/
+
+
+
+
+Given a table tree, id is identifier of the tree node and p_id is its parent node's id.
+
+TABLe:  Node
+
++----+------+
+| id | p_id |
++----+------+
+| 1  | null |
+| 2  | 1    |
+| 3  | 1    |
+| 4  | 2    |
+| 5  | 2    |
++----+------+
+
+Each node in the tree can be one of three types:
+* Leaf: if the node is a leaf node.
+* Root: if the node is the root of the tree.
+* Inner: If the node is neither a leaf node nor a root node.
+Write a query to print the node id and the type of the node. 
+  
+  
+ SELECT id, type_of_node from Node n, parent where n.p_id == parent.id 
+      //case switch
+          n.p_id == null type_of_node == Root
+          
+
+
+
+=====
+
+
+  private static boolean isConsecutive2(int[] arr) {
+    boolean consecutiveFlag = true;
+    
+    int minValue = 1000;
+    int maxValue = -1000;
+ 
+    if (arr != null && arr.length > 0) {
+        for (int i=0; i<arr.length; i++) {
+            
+            if (arr[i] < minValue) {
+                    minValue = arr[i];
+            } 
+
+            if (arr[i] > maxValue) {
+                    maxValue = arr[i];
+            }
+        }
+
+        boolean[] isPresentArray = new boolean[maxValue - minValue + 1];
+        // isPresentArray -> [min, min+1, min+2, ..., max-2, max-1, max]
+        // isPresentArray is size 3
+        // arr is length 4
+      
+        for (int i=0; i<arr.length; i++) {
+            int value = arr[i]; // arr[i] = -2
+          
+            int position = value - minValue; 
+          
+            if (isPresentArray[position] == true) {
+                return false;
+            } else {
+                isPresentArray[position] = true;
+            }
+        }
+        
+        for (int i=0; i<isPresentArray.length; i++) {
+            if (isPresentArray[i] == false) {
+                return false;
+            }
+        }      
+    }
+    
+    return true;     
+  }
+}
+
+
+=====
+
+
+// package whatever; // don't place package name!
+
+import java.io.*;
+import java.util.*;
+
+class MyCode {
+  public static void main (String[] args) {
+
+// Test 1
+Iterator<Integer> evens = Arrays.asList(0, 2, 4).iterator();
+Iterator<Integer> odds = Arrays.asList(1, 3, 5).iterator();
+List<Iterator<Integer>> iters = Arrays.asList(evens, odds);
+//System.out.println("iters: " + iters);
+
+display(iters);
+
+//assert(take(interleave(iters), 6).equals(Arrays.asList(0,1,2,3,4,5))); 
+  }
+
+// Helper method to take first n elements from an iterator and return as a List
+private static List<Integer> take(Iterator<Integer> iter, int n) {
+List<Integer> ret = new ArrayList<Integer>();
+for (int i = 0; i < n; i++) {
+if (iter.hasNext()) {
+ret.add(iter.next());
+}
+}
+
+return ret;
+}
+
+public static void display(List<Iterator<Integer>> iters) {
+System.out.println("Display");
+List<Integer> resultList = new ArrayList<Integer>();
+
+List<List<Integer>> list = new List<ArrayList<Integer>>();
+
+if (iters != null) {
+for (int i=0; i<iters.size(); i++) {
+//Integer intValue = iters.next();
+//System.out.println("\n iters.get(" + i + "): " + iters.get(i));
+Object obj = iters.get(i);
+System.out.println("obj: " + obj);
+Iterator aIter = (Iterator)iters.get(i);
+//System.out.println("obj: " + obj);
+
+List<Integer> l = new ArrayList<Integer>();
+while (aIter.hasNext()) {
+Object o = aIter.next(); 
+System.out.println("\n o: " + o);
+l.add(o);
+}
+list.add(l);
+}
+}
+
+for (int i=0; i<list.size(); i++) {
+List<Integer> intList = list.get(i);
+for (int i=0; i<intList.size(); i++) {
+Integer value = (Integer)intList.get(i);
+resultList.add(value);
+intList.remove(value);
+}
+}
+
+}
+
+public static Iterator<Integer> interleave(List<Iterator<Integer>> iters) {
+
+if (iters != null) {
+for (int i=0; i<iters.size(); i++) {
+//Integer intValue = iters.next();
+//System.out.println("\n iters.get(" + i + "): " + iters.get(i));
+Object obj = iters.get(i);
+System.out.println("obj: " + obj);
+
+}
+
+/*
+while (iters.hasNext()) {
+Integer intValue = iters.next();
+System.out.println("\n intValue: " + intValue);
+}
+*/
+}
+
+// IMPLEMENT THIS
+return null;
+}
+}
+
+/*
+class InterleavingIterator {
+public static void main(String[] args) {
+// ADD TEST CASES
+
+// Test 1
+Iterator<Integer> evens = Arrays.asList(0, 2, 4).iterator();
+Iterator<Integer> odds = Arrays.asList(1, 3, 5).iterator();
+List<Iterator<Integer>> iters = Arrays.asList(evens, odds);
+assert(take(interleave(iters), 6).equals(Arrays.asList(0,1,2,3,4,5)));
+}
+
+// Helper method to take first n elements from an iterator and return as a List
+private static List<Integer> take(Iterator<Integer> iter, int n) {
+List<Integer> ret = new ArrayList<Integer>();
+for (int i = 0; i < n; i++) {
+if (iter.hasNext()) {
+ret.add(iter.next());
+}
+}
+
+return ret;
+}
+
+public static Iterator<Integer> interleave(List<Iterator<Integer>> iters) {
+// IMPLEMENT THIS
+return null;
+}
+}
+*/
+
+
+
+=====
+
+
+
+
+/*
+
+[94555, 95110]
+[93555, 94888]
+[96666, 98000]
+[97000, 97500]
+
+[93555, 95110], [96666, 98000]
+*/
+
+class Interval {
+    int start;
+    int end;
+}
+
+public List<Interval> merge(List<Interval> zipCodeIntervalList) {
+    if (zipCodeIntervalList != null && zipCodeIntervalList.size() <= 1) {
+        return zipCodeIntervalList;
+    }
+    
+    zipCodeIntervalList.sort((entry1, entry2) -> Integer.compare(entry1.start, entry2.start));
+    
+    List<Inteval> mergedResultList = new LinkedList<Interval>();
+    int currentStart = zipCodeIntervalList.get(0).start;
+    int currentEnd = zipCodeIntervalList.get(0).end;
+    
+    for (Interval myInterval : zipCodeIntervalList) {
+        if (myInterval.start <= currentEnd) {
+            currentEnd = Math.max(currentEnd, myInterval.end);
+        } else {
+            mergedResultList.add(new Interval(currentStart, currentEnd));
+            currentStart = myInterval.start;
+            currentEnd = myInterval.end;
+        }
+    }
+    
+    mergedResultList.add(new Interval(currentStart, currentEnd));
+    return mergedResultList;
+}
+
+
+
+=====
+
+
+
+import java.io.*;
+import java.util.*;
+
+/*
+ * To execute Java, please define "static void main" on a class
+ * named Solution.
+ *
+ * If you need more classes, simply define them inline.
+ */
+
+class Solution {
+  static class Node {
+    Node left;
+    int value;
+    Node right;
+    
+    public Node(int value) {
+      this.value = value;
+      this.left = null;
+      this.right = null;
+    }
+  }
+  
+  static Map<Integer, Node> lruMap = new HashMap<Integer, Node>();
+  static Node head = null;
+
+  
+  public void appendAtTheEnd(Node node) {
+    if (node == null) {
+      return;
+    }
+    
+    Node runner = head;
+    
+    while (runner != null) {
+      runner = runner.right;
+    }  
+    
+    runner.right = node;
+    node.left = runner;
+    
+       
+    //Popuplate the HashMap
+    lruMap.put(node.value, node);
+    
+  }
+  
+  public void evict(Node node) {
+    if (node == null) {
+      return;
+    }  
+
+    Node runner = head;
+    
+    //if node is first element in the doubly linked list
+    if (runner.value == node.value) {
+      runner = runner.right;
+      runner.left = null;
+      lruMap.remove(node.value);
+    } else {
+      while (runner != null && runner.value != node.value && runner.right.value != node.value) {
+        runner = runner.right;
+      }
+      Node temp = runner.right;
+      runner.right = temp.right;
+      temp.right.left = runner;
+      lruMap.remove(node.value);
+    }  
+  }
+  
+  public static void main(String[] args) {
+
+    
+  
+    /*
+    ArrayList<String> strings = new ArrayList<String>();
+    strings.add("Hello, World!");
+    strings.add("Welcome to CoderPad.");
+    strings.add("This pad is running Java " + Runtime.version().feature());
+
+    for (String string : strings) {
+      System.out.println(string);
+    }
+    */
+    
+    Node one = new Node(1);
+    Node two = new Node(2);
+    Node three = new Node(3);
+    Node four = new Node(4);
+    Node five = new Node(5);
+    Node six = new Node(6);
+    
+    /*
+    one.right = two;
+    two.right = three;
+    two.left = one;
+    three.right = four;
+    three.left = two;
+    four.right = five;
+    four.left = three;
+    five.right = six;
+    five.left = four;
+    six.left = five;
+    */
+    
+    
+    
+    
+    System.out.println("LRU cache implementation!");
+  }
+  
+  
+}
+
+
+
+=====
+
+
+
+Hello!
+
+https://registry.npmjs.org/express/4.17.1
+
+
+Given:
+direct_dependencies(name: string, version: string): map[dependency_name]dependency_version
+
+// Returns:
+{
+	[name: string]: string // name -> version
+}
+
+// Example:
+{
+	“A”: “1.0.0”,
+	“Foo”: “1.2.4”,
+	“Bar”: “3.2”,
+}
+
+Implement:
+all_dependencies(name: string, version: string): map[dependency_name]dependency_version
+
+Solution:
+
+/*
+public class PackageObject {
+    private String name;  //mandatory
+    private String version;  //mandatory
+    private List<PackageObject> dependencyList = null;
+
+    public PackageObject(String name, String version) {
+        this.name = name;
+        this.version = version;
+    }
+
+    //public getters/setters
+
+    //boolean equals()
+
+    //int hashCode()
+
+    //String toString()
+}
+*/
+
+public class DependencyObject {
+    private String name;  //mandatory
+    private String version;  //mandatory
+
+    public DependencyObject(String name, String version) {
+        this.name = name;
+        this.version = version;
+    }
+
+    //public getters/setters
+
+    //boolean equals()
+
+    //int hashCode()
+
+    //String toString()
+}
+
+
+
+=====
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+
+
+public class Util {
+    public static List<DependencyObject> dependencyList = new ArrayList<DependencyObject>();
+    //public static Map<DependencyObject, List<DependencyObject>> dependencyMap = new HashMap<DependencyObject, List<DependencyObject>>();
+
+    public static Map<String, String> directDependencies(String name, String version) {
+       //validate input params
+       
+       Dependency d = new Dependency(name, version);
+
+       Map<String, String> directDependencyMap = directDependencies_helper(name, version);
+       if (directDependencyMap != null && !directDependencyMap.empty()) {
+           /**
+            * Use an Iterator to loop through all the entries in the map
+            * For each map entry: {
+            *    Create a DependencyObject
+            *       DependencyObject dependency = new DependencyObject(entry.name, entry.version);
+            *       dependencyList.add(dependency);
+                 }
+  
+                 dependencyMap.put(dependency, dependencyList);
+                 
+                 //A -> (B, C)
+                 //B -> (D, E)
+                 //C -> (F, G)
+                 //D -> (X, Y)
+
+            */
+       }    
+    }
+
+    public static Map<String, String> allDependencies(String name, String version) {
+            //validate input params
+
+            //Populate the directDependencyMap from scratch for each entry
+
+            List<Dependency> resultDependencyList = new ArrayList<DependencyObject>();
+
+            Map<String, String> directDependencyMap = directDependencies(name, version);
+
+            //Create a dependency object with the supplied params
+            DependencyObject d = new DependencyObject(name, version);
+
+            Queue() queue = new LinkedList<DependencyObject>();
+
+            List<DependencyObject> depList = directDependencyMap.get(d);
+            if (depList != null && !depList.empty()) {
+               for (int i=0; i<depList.getSize(); i++) {
+                   DependencyObject dependency = depList.get(i);
+                   resultDependencyList.add(dependency);
+                   queue.add(dependency);
+               }
+
+               while (!queue.empty()) {
+                   DependencyObject d = queue.poll();
+                   List<DependencyObject> dList = directDependencyMap.get(d);
+                   if (dList != null && !dList.empty()) {
+                       for (int i=0; i<dList.size(); i++) {
+                           DependencyObject dObj = dList.get(i);
+                           resultDependencyList.add(dObj);
+                           queue.add(dObj);  
+                       }
+                   }
+               }
+
+               return resultDependencyList;
+            }
+    }
+}
+
+
+
+=====
+
+
+
+Online Timer with Alarm:
+
+Python Lab
+Create your timers with optional alarms and start/pause/stop them simultaneously or sequentially.  They are perfect for everyday activities such as cooking meals, taking quizzes, giving speeches, playing sports or practicing music.
+
+
+
+=====
+
+
+Given an array which is sorted but rotated.  Search for a key in that array.
+
+    int[] arr = new int[] {4, 5, 6, 8, 90, 1100, 0, 1, 2, 3};
+    sort(arr);
+  }
+  
+  public static void sort(int[] arr) {
+        System.out.println("sort method");
+     
+    
+      int inflexionIndex = -1;
+    
+      if (arr != null && arr.length > 0) {
+        for (int i=0; i<arr.length; i++) {
+          if (arr[i] > arr[i+1]) {
+            inflexionIndex = i;
+            break;
+          }  
+        } 
+        
+        int[] result = new int[arr.length];
+        
+        int startPosition = -1;
+        
+    
+        if (arr[0] < arr[inflexionIndex + 1]) {
+            startPosition = 0;
+        } else {
+            startPosition = inflexionIndex + 1;
+        }
+        
+        int j =0;
+        for (int i=startPosition; i<arr.length; i++) {
+          result[j++] = arr[i];
+        }  
+        
+        for (int i=0; i<=inflexionIndex; i++) {
+          result[j++] = arr[i];
+        }  
+        
+        for (int i=0; i<result.length; i++) {
+          System.out.println(" result[" + i + "]: " + result[i]);
+        }  
+      }  
+  }
+}
+
+
+
+=====
+
+
+Prompt
+* Design a system for a food ordering/delivery company 
+    * Drivers to set their status as “online” 
+    * Restaurants to set open hours 
+    * Customers to search, place, and track orders 
+    * APIs, underlying components, data model, tech stack, design choices, etc. 
+    * Walk through a use case. 
+        * What happens when a customer places an order? 
+        * How does the system pair a driver with a particular delivery request? 
+Solution
+
+
+DB OR Model:
+
+Tables:
+
+1)
+RESTAURANT
+
+Id: BIGINT(21) AUTO INCREMENT NOT NULL PK
+Name: varchars
+Description
+Address:
+Hours_of_operations:
+Menu_items:
+Status: 
+Created_by:  varchar
+Created_at:  ts
+Updated_by:  varchar
+Updated_at:  ts
+
+2)
+MENU:
+
+Id
+Restaurant_id:
+Name
+Description
+Quantity
+Price
+Created_by:  varchar
+Created_at:  ts
+Updated_by:  varchar
+Updated_at:  ts
+
+3)
+DRIVER:
+
+Id: BIGINT(21) AUTO INCREMENT NOT NULL PK
+Name: varchars
+Description
+Address:
+Hours_of_operations:
+Orders:  
+Status: ONLINE | OFFLINE
+Created_by:  varchar
+Created_at:  ts
+Updated_by:  varchar
+Updated_at:  ts
+
+
+4)
+ORDER:
+
+Id
+Restaurant_id:
+Name
+Description:  
+LineItems:
+Quantity
+Price
+Created_by:  varchar
+Created_at:  ts
+Updated_by:  varchar
+Updated_at:  ts
+
+
+
+=====
+
+    * search, place, and track orders 
+ORDER_SERVICE:
+
+HTTP verb:  GET
+search(api_dev_key, radius_filter, customer_location, search_query, category_filter, max_results_to_return, sort, page_token):
+* <list_of_restaurant_ids> 
+
+
+HTTP verb:  POST
+place_order(api_dev_key, customer_location, restaurant_id, reservation_order_item, max_results_to_return, sort, page_token):
+* <order_id> 
+
+* <driver_id> 
+
+
+HTTP verb:  GET
+track_order(api_dev_key, customer_location, order_id
+
+=====
+
+DRIVER_SERVICE:
+
+HTTP verb:  POST
+register(api_dev_key, radius_filter, driver_location, category_filter, status)
+
+
+=======
+
+
+RDS:
+RDS Postgres
+Redshift
+EMR
+EBS
+
+S3, Glacier
+SQS
+SNS
+
+
+ElasticCache
+Redis
+QuickSight
+Tableau
+
+Athena
+
+
+Append-only store:
+
+MessagingFramework:  Kafka
+
+
+
+TRACKING_SERVICE:
+
+track_order(api_dev_key, customer_location, order_id
+
+
+METRIC_SERVICE
+
+PRICING_SERVICE:
+
+
+=====
+
+
+
+There are several peaks in a 1-D array.  Search for a given key.
+
+https://stackoverflow.com/questions/45713731/how-to-find-peak-elements-in-an-array-when-there-are-multiple-peaks
+https://stackoverflow.com/questions/43525364/finding-multiple-peaks-in-a-1d-array
+
+
+=====
+
+
+
+
+package datastructuresandalgorithms.grokkingthecodinginterview.pattern2;
+
+import java.util.Arrays;
+
+public class TourismCityAttractiveness {
+    public static int getMaxCityAttractiveScore(int[] cityAttractiveScoreArray) {
+        if (cityAttractiveScoreArray == null || cityAttractiveScoreArray.length == 0) {
+            return -1;
+        } else {
+            int maxCityAttractiveScore = Integer.MIN_VALUE;
+
+            int numOfCities = cityAttractiveScoreArray.length;
+            System.out.println("\n numOfCities: " + numOfCities);
+
+            int[][] attractivenessMatrix = new int[numOfCities][numOfCities];
+            display(attractivenessMatrix);
+
+            for (int i=0; i<numOfCities; i++) {
+                for (int j=0; j<numOfCities; j++) {
+                    if (attractivenessMatrix[i][j] == 0) {
+                        int score = cityAttractiveScoreArray[i] + cityAttractiveScoreArray[j] + Math.abs(j - i);
+                        attractivenessMatrix[i][j] = score;
+                        attractivenessMatrix[j][i] = score;
+
+                        maxCityAttractiveScore = Math.max(maxCityAttractiveScore, score);
+                    }
+                }
+            }
+
+            display(attractivenessMatrix);
+
+            return maxCityAttractiveScore;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] cityAttractiveScoreArray = {-2, 6, 1, 4, -1, 10};
+
+        System.out.println("\n\n Input cityAttractiveScoreArray");
+        System.out.println(Arrays.toString(cityAttractiveScoreArray));
+
+        int cityAttractiveScore = getMaxCityAttractiveScore(cityAttractiveScoreArray);
+        System.out.println("\n\n cityAttractiveScore: " + cityAttractiveScore);
+    }
+
+    public static void display(int[][] attractivenessMatrix) {
+        System.out.println("\n\n");
+
+        if (attractivenessMatrix != null) {
+            int numOfRows = attractivenessMatrix.length;
+            int numOfColumns = attractivenessMatrix[0].length;
+            for (int i=0; i<numOfRows; i++) {
+                for (int j=0; j<numOfColumns; j++) {
+                    System.out.print("\t " + attractivenessMatrix[i][j]);
+                    if (j == numOfColumns - 1) {
+                        System.out.println();
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+=====
+
+
+
+
+package datastructuresandalgorithms.grokkingthecodinginterview.javabasics;
+
+public class Islands {
+    public static boolean isSafe(int[][] M, int row, int column, boolean[][] visited) {
+        int numberOfRows = M.length;
+        int numberOfColumns = M[0].length;
+        return (row >= 0 && row < numberOfRows && column >= 0 && column < numberOfColumns && M[row][column] == 1 && !visited[row][column]);
+    }
+
+    public static void DFS(int[][]M, int row, int column, boolean[][] visited) {
+        int[] rowNeighbor = new int[] {-1, -1, -1, 0, 0, 1, 1, 1};
+        int[] columnNeighbor = new int[] {-1, 0, 1, -1, 1, -1, 0, 1};
+
+        visited[row][column] = true;
+
+        for (int k=0; k<8; k++) {
+            if (isSafe(M, row + rowNeighbor[k], column + columnNeighbor[k], visited)) {
+                DFS(M, row + rowNeighbor[k], column + columnNeighbor[k], visited);
+            }
+        }
+    }
+
+    public static int countIslands(int[][] M) {
+        int count = 0;
+
+        int numberOfRows = M.length;
+        int numberOfColumns = M[0].length;
+        System.out.println("\n numberOfRows: " + numberOfRows);
+        System.out.println(" numberOfColumns: " + numberOfColumns);
+
+        boolean[][] visited = new boolean[numberOfRows][numberOfColumns];
+        System.out.println("\n\n Display visited");
+        display(visited);
+
+        System.out.println("\n\n DFS search");
+        for (int i=0; i<numberOfRows; i++) {
+            for (int j=0; j<numberOfColumns; j++) {
+                if (M[i][j] == 1 && !visited[i][j]) {
+                    System.out.println(" M[" + i + "][" + j + "]: " + M[i][j]);
+                    DFS(M, i ,j , visited);
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int M[][] = new int[][] {
+                                  {1, 1, 0, 0, 0},
+                                  {0, 1, 0, 0, 1},
+                                  {1, 0, 0, 1, 1},
+                                  {0, 0, 0, 0, 0},
+                                  {1, 0, 1, 0, 1},
+                                };
+
+        int numberOfIslands = countIslands(M);
+        System.out.println("\n numberOfIslands: " + numberOfIslands);
+    }
+
+    public static void display(boolean[][] visited) {
+        if (visited != null) {
+            int numberOfRows = visited.length;
+            int numberOfColumns = visited[0].length;
+            for (int i=0; i<numberOfRows; i++) {
+                for (int j=0; j<numberOfColumns; j++) {
+                    System.out.println(" visited[" + i + "][" + j + "]: " + visited[i][j]);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+=====
+
+
+
+
+package datastructuresandalgorithms.grokkingthecodinginterview.javabasics;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class MaximumRepeatingSubtring {
+    public static String maxRepeatingSubstring2(String str, int n) {
+        int maxSubstringFrequency = Integer.MIN_VALUE;
+        String maxRepeatingSubString = null;
+
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
+        if (str == null || str.length() == 0) {
+            //throw Exception
+            return null;
+        }
+
+        if (n <=0) {
+            //throw Exception
+            return null;
+        }
+
+        for (int i=0; i<str.length() - n + 1; i++) {
+            String subString = str.substring(i, i + n);
+            //System.out.println(" subString: " + subString);
+
+            int currentValue = 0;
+
+            Integer count = map.get(subString);
+
+            if (count == null) {
+                currentValue = 1;
+                map.put(subString, new Integer(currentValue));
+            } else {
+                currentValue = count + 1;
+                map.put(subString, new Integer(currentValue));
+            }
+
+            if (currentValue > maxSubstringFrequency) {
+                maxSubstringFrequency = currentValue;
+                maxRepeatingSubString = subString;
+            }
+        }
+
+        System.out.println("\n map: " + map);
+
+        return maxRepeatingSubString;
+    }
+
+    public static String maxRepeatingSubstring(String str, int n) throws Exception {
+        String maxRepeatingSubString = null;
+        int maxSubstringFrequency = Integer.MIN_VALUE;
+
+        if (str == null) {
+            throw new Exception("\n null string supplied.  Please supply a valid str");
+        }
+
+        if (str.length() == 0) {
+            throw new Exception("\n empty string supplied.  Please supply a valid str");
+        }
+
+        if (n <= 0) {
+            throw new Exception("\n Invalid n supplied.  Please supply a valid n");
+        }
+
+        Map<String, Integer> frequencyMap = new HashMap<String, Integer>();
+
+        for (int i=0; i<str.length() - n + 1; i++) {
+            String substring = str.substring(i, i + n);
+            System.out.println(" substring: " + substring);
+
+            int count = frequencyMap.getOrDefault(substring, 0) + 1;
+            frequencyMap.put(substring, count);
+
+            if (count > maxSubstringFrequency) {
+                maxSubstringFrequency = count;
+                maxRepeatingSubString =  substring;
+            }
+        }
+
+        System.out.println(" frequencyMap: " + frequencyMap);
+
+        return maxRepeatingSubString;
+    }
+
+    public static void main(String[] args) throws Exception {
+        //String inputString = "ABCBCAA";
+        //int length = 3;
+
+        String inputString = "ABCBCAAAAA";
+        int length = 3;
+
+        //String inputString = "ABCBCAA";
+        //int length = 1;
+
+        System.out.println("\n inputString: " + inputString);
+        System.out.println(" length: " + length);
+
+        String maxRepeatingSubString = maxRepeatingSubstring(inputString, length);
+        System.out.println("\n maxRepeatingSubString: " + maxRepeatingSubString);
+    }
+}
+
+
+=====
+
+
+package datastructuresandalgorithms.grokkingthecodinginterview.pattern2;
+
+public class FizzBuzz {
+    public static void main(String[] args) {
+        int num = 50;
+        fizzbuzz(num);
+    }
+
+    private static void fizzbuzz(int num) {
+        for (int i=0; i<num; i++) {
+            if (i % 15 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+
+=====
+
+
+
+package datastructuresandalgorithms.grokkingthecodinginterview.pattern2;
+
+import java.util.Arrays;
+
+public class TwoSum {
+    public static void main(String[] args) {
+        int[] inputArray = new int[] {1, 2, 3, 4, 6};
+        int targetSum = 6;
+
+        if (inputArray != null && inputArray.length > 0) {
+            System.out.println("\n inputArray: " + Arrays.toString(inputArray));
+
+            int[] result = search(inputArray, targetSum);
+            if (result != null && result.length == 2) {
+                System.out.println("\n The pair {" + inputArray[result[0]] + ", " + inputArray[result[1]] + "} exists in indexes " + Arrays.toString(result) + " of the input whose sum is equal to the targetSum of " + targetSum);
+            }
+
+            /*
+            for (int i=0; i<result.length; i++) {
+                int index = result[i];
+                System.out.println(" inputArray[" + result[i] + "]: " + inputArray[result[i]]);
+            }
+             */
+        }
+    }
+
+    private static int[] search(int[] inputArray, int targetSum) {
+        int left = 0;
+        int right = inputArray.length - 1;
+
+        while (left < right) {
+            if (inputArray[left] + inputArray[right] < targetSum) {
+                left++;
+            } else if (inputArray[left] + inputArray[right] > targetSum) {
+                right--;
+            } else if (inputArray[left] + inputArray[right] == targetSum) {
+                return new int[] {left, right};
+            }
+        }
+
+        return new int[] {-1, -1};
+    }
+
+    private static int[] search2(int[] inputArray, int targetSum) {
+        int left = 0;
+        int right = inputArray.length - 1;
+
+        while (left < right) {
+            int currentSum = inputArray[left] + inputArray[right];
+
+            if (currentSum > targetSum) {
+                right--;
+            } else if (currentSum < targetSum) {
+                left++;
+            } else if (currentSum == targetSum) {
+                return new int[] {left, right};
+            }
+        }
+        return new int[] {-1, -1};
+    }
+}
+
+
+
+=====
+
+
+
