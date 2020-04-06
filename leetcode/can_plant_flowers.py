@@ -28,8 +28,8 @@ Flowerbed = [1,0,0,0,1], n = 2
 Output:  False
 
 
-Time:
-Space:
+Time:  O(N)
+Space:  O(1)
 """
 
 
@@ -49,11 +49,7 @@ def can_plant_flowers(flower_bed, n):
             n -= 1
             if n == 0:
                 return True
-
-    if n == 0:
-        return True
-    else:
-        return False
+    return n == 0
 
 
 if __name__ == "__main__":
@@ -66,8 +62,8 @@ if __name__ == "__main__":
     print("\n flower_bed: ", flower_bed)
 
     #n = 0
-    n = 1
-    #n = 2
+    #n = 1
+    n = 2
     print(" n: ", n)
 
     can_plant = can_plant_flowers(flower_bed, n)
