@@ -1,0 +1,4 @@
+- **Problem #: 1394**
+  - **Title:** Find Lucky Integer in an Array
+  - **Difficulty:** Easy 
+  - **Link:**  https://leetcode.com/problems/find-lucky-integer-in-an-array/
