@@ -1,4 +1,0 @@
-- **Problem #: 141**
-  - **Title:** Cycle in a singly Linked list
-  - **Difficulty:** Easy 
-  - **Link:**  https://leetcode.com/problems/linked-list-cycle/

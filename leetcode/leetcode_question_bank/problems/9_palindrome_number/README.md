@@ -1,4 +1,0 @@
-- **Problem #: 9**
-  - **Title:** Palindrome Number
-  - **Difficulty:** Easy
-  - **Link:**  https://leetcode.com/problems/palindrome-number/submissions/
