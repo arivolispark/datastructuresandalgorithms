@@ -1,4 +1,0 @@
-- **Problem #: 142**
-  - **Title:** Linked List Cycle 2
-  - **Difficulty:** Medium 
-  - **Link:**  https://leetcode.com/problems/linked-list-cycle-ii/
