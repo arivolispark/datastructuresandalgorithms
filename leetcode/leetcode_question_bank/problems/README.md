@@ -22,7 +22,7 @@ Updated_date:  2020_04_14_2225
 <br/>
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
-| --- | --- | --- | ---
+| --- | --- | --- | --- | --- | --- | ---
 | 1 - 25 | 7 | 7 | 14 | 14 | 4 | 4 
 | 26 - 50 | 5 | 12 | 13 | 27 | 7 | 11
 | 51 - 75 | 6 | 18 | 13 | 40 | 6 | 17
