@@ -21,7 +21,7 @@ Updated_date:  2020_04_19_1525
 <br/>
 <br/>
 
-| Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
+| Problem numbers | # of **Easy** problems | Cumulative # of **Easy** problems | # of **Medium** problems | Cumulative # of **Medium** problems | # of **Hard** problems | Cumulative # of **Hard** problems
 | --- | --- | --- | --- | --- | --- | ---
 | 1 - 25 | 7 | 7 | 14 | 14 | 4 | 4 
 | 26 - 50 | 5 | 12 | 13 | 27 | 7 | 11
@@ -80,7 +80,7 @@ Updated_date:  2020_04_19_1525
 | 1351 - 1375 | 6 | 387 | 13 | 702 | 6 | 286
 | 1376 - 1400 | 6 | 393 | 13 | 715 | 6 | 292
 | 1401 - 1420 | 5 | 398 | 9 | 724 | 6 | 298
-| Total | - | *398* | - | *724* | - | *298*
+| Total | - | **398** | - | **724** | - | **298**
 
 
 <br/>
