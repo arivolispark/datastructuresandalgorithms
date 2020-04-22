@@ -60,3 +60,4 @@ if __name__ == '__main__':
 		 ]
     for t in test_cases:
         test(first_unique(t[0]), t[1])
+

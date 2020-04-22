@@ -46,3 +46,4 @@ if __name__ == '__main__':
 
     for num in nums:
         test(is_sum_odd(num[0]), num[1])
+
