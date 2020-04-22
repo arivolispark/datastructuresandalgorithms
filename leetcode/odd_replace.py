@@ -33,3 +33,4 @@ if __name__ == '__main__':
 		 ]
     for t in test_cases:
         test(odd_replace(t[0]), t[1])
+
