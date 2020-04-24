@@ -24,22 +24,6 @@ from typing import List
 class Solution:
 
     def subarraySum(self, nums: List[int], k: int) -> int:
-        """
-        sums = {}
-        cur_sum = 0
-        sums[cur_sum] = 1
-        res = 0
-        for i in nums:
-            cur_sum += i
-            if cur_sum - k in sums:
-                res += sums[cur_sum - k]
-            if cur_sum in sums:
-                sums[cur_sum] = sums[cur_sum] + 1
-            else:
-                sums[cur_sum] = 1
-        return res
-        """
-
         count_subarray_sum = 0
         if nums:
             n = len(nums)
