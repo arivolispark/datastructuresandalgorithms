@@ -29,7 +29,7 @@ class Solution:
             if msb_p1 != msb_p2:
                 break
 
-            # Add 2^msb_p1 to result
+            # add 2^msb_p1 to result
             msb_val = (1 << msb_p1)
             result += msb_val
 
