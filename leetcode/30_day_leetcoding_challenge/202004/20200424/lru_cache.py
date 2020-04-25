@@ -37,11 +37,11 @@ class LRUCache:
         self.capacity = capacity
         self.operation_id = 0
         self.cache_map = {}
-        self.lru_map = {}
+        self.least_recently_used_map = {}
 
     def get(self, key: int) -> int:
         if key in self.cache_map:
-            self.lru_map[key] = self.operation_id
+            self.least_recently_used_map[key] = self.operation_id
             self.operation_id += 1
             return self.cache_map[key]
         return -1
@@ -51,11 +51,11 @@ class LRUCache:
             self.cache_map[key] = value
         else:
             if len(self.cache_map) >= self.capacity:
-                least_recently_used_key = min(self.lru_map.keys(), key=lambda k: self.lru_map[k])
+                least_recently_used_key = min(self.least_recently_used_map.keys(), key=lambda k: self.least_recently_used_map[k])
                 self.cache_map.pop(least_recently_used_key)
-                self.lru_map.pop(least_recently_used_key)
+                self.least_recently_used_map.pop(least_recently_used_key)
             self.cache_map[key] = value
-        self.lru_map[key] = self.operation_id
+        self.least_recently_used_map[key] = self.operation_id
         self.operation_id += 1
 
 
