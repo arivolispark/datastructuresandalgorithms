@@ -1,4 +1,4 @@
-**LRU Cache**
+**Bitwise AND for numbers range**
 
 <br/>
 <br/>
