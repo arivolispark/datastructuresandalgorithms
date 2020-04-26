@@ -1,6 +1,7 @@
-Leetcode problem #: 9
+Leetcode problem #:  11
 <br/>
-Level of difficulty:  Easy
+Title:  Container With Most Water	
 <br/>
-Reference:  https://leetcode.com/problems/palindrome-number/
-
+Level of difficulty:  Medium 
+<br/>
+Reference:  https://leetcode.com/problems/container-with-most-water/
