@@ -3,11 +3,7 @@
 
 <br/>
 <br/>
-<br/>
-<br/>
 Updated_date:  2020_04_26_0857
-<br/>
-<br/>
 <br/>
 <br/>
 
@@ -74,11 +70,7 @@ Updated_date:  2020_04_26_0857
 
 <br/>
 <br/>
-<br/>
-<br/>
 **Problems with solutions**
-<br/>
-<br/>
 <br/>
 <br/>
 
@@ -95,11 +87,7 @@ Updated_date:  2020_04_26_0857
 
 <br/>
 <br/>
-<br/>
-<br/>
 Updated_date:  2020_04_26_0859
-<br/>
-<br/>
 <br/>
 <br/>
 
@@ -166,8 +154,6 @@ Updated_date:  2020_04_26_0859
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 | Name | Value
 | --- | --- 
@@ -178,7 +164,5 @@ Updated_date:  2020_04_26_0859
 | Total number of problems solved - Hard | 0 / 299
 
 
-<br/>
-<br/>
 <br/>
 <br/>
