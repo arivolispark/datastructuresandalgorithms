@@ -1,7 +1,3 @@
-Leetcode problem #: 9
-<br/>
-Title:  Palindrome Number	
-<br/>
-Level of difficulty:  Easy
-<br/>
-Reference:  https://leetcode.com/problems/palindrome-number/
+| Problem ID | Title | Difficulty | Reference
+| --- | --- | --- | ---
+| 9 | Palindrome Number | Easy | https://leetcode.com/problems/palindrome-number/
