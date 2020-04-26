@@ -80,6 +80,7 @@ The following table has the list of solved problems
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
 | 9 | Palindrome Number | Easy | https://leetcode.com/problems/palindrome-number/
+| 9 | Palindrome Number | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/9_palindrome_number
 | 11 | Container With Most Water | Medium | https://leetcode.com/problems/container-with-most-water/
 | 100 | Same Tree | Easy | https://leetcode.com/problems/same-tree/submissions/ 
 | 121 | Best Time to Buy and Sell Stock | Easy | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -161,7 +162,7 @@ Updated_date:  2020_04_26_0859
 <br/>
 <br/>
 
-# Solved problems stats
+# 5. Solved problems stats
 
 | Name | Value
 | --- | --- 
