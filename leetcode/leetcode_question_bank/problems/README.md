@@ -5,11 +5,7 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 
 # 2. Problems break down
 
-<br/>
-<br/>
 Updated_date:  2020_04_26_0857
-<br/>
-<br/>
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
 | --- | --- | --- | --- | --- | --- | ---
@@ -75,11 +71,10 @@ Updated_date:  2020_04_26_0857
 
 # 3. Solved problems
 
-The following table has the list of solved problems 
+The following table has the list of solved problems: 
 
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 9 | Palindrome Number | Easy | https://leetcode.com/problems/palindrome-number/
 | 9 | Palindrome Number | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/9_palindrome_number
 | 11 | Container With Most Water | Medium | https://leetcode.com/problems/container-with-most-water/
 | 100 | Same Tree | Easy | https://leetcode.com/problems/same-tree/submissions/ 
@@ -92,11 +87,7 @@ The following table has the list of solved problems
 
 # 4. Solved problems break down
 
-<br/>
-<br/>
 Updated_date:  2020_04_26_0859
-<br/>
-<br/>
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
 | --- | --- | --- | --- | --- | --- | ---
@@ -159,9 +150,6 @@ Updated_date:  2020_04_26_0859
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
 | Total | - | **399** | - | **727** | - | **299**
 
-<br/>
-<br/>
-
 # 5. Solved problems stats
 
 | Name | Value
@@ -172,6 +160,3 @@ Updated_date:  2020_04_26_0859
 | Total number of problems solved - Medium | 2 / 727
 | Total number of problems solved - Hard | 0 / 299
 
-
-<br/>
-<br/>
