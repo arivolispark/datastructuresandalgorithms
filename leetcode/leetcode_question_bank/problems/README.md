@@ -1,9 +1,9 @@
-# Introduction
+# 1. Introduction
 
 This repo has the solutions for Leetcode problems.  The Leetcode problems can be found [here](https://leetcode.com/problemset/all).
 
 
-# Problems break down
+# 2. Problems break down
 
 <br/>
 <br/>
@@ -73,7 +73,9 @@ Updated_date:  2020_04_26_0857
 | Total | - | **399** | - | **727** | - | **299**
 
 
-# Solved problems
+# 3. Solved problems
+
+The following table has the list of solved problems 
 
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
@@ -87,7 +89,7 @@ Updated_date:  2020_04_26_0857
 | 1394 | Find Lucky Integer in an Array | Easy | https://leetcode.com/problems/find-lucky-integer-in-an-array/
 
 
-# Solved problems break down
+# 4. Solved problems break down
 
 <br/>
 <br/>
