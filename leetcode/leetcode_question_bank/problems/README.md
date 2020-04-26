@@ -76,13 +76,13 @@ The following table has the list of solved problems:
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
 | 9 | Palindrome Number | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/9_palindrome_number
-| 11 | Container With Most Water | Medium | https://leetcode.com/problems/container-with-most-water/
-| 100 | Same Tree | Easy | https://leetcode.com/problems/same-tree/submissions/ 
-| 121 | Best Time to Buy and Sell Stock | Easy | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-| 141 | Linked List Cycle | Easy | https://leetcode.com/problems/linked-list-cycle/
-| 142 | Linked List Cycle 2 | Medium | https://leetcode.com/problems/linked-list-cycle-ii/
-| 237 | Delete Node in a Linked List | Easy | https://leetcode.com/problems/delete-node-in-a-linked-list/
-| 1394 | Find Lucky Integer in an Array | Easy | https://leetcode.com/problems/find-lucky-integer-in-an-array/
+| 11 | Container With Most Water | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/11_container_with_most_water
+| 100 | Same Tree | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/100_same_tree
+| 121 | Best Time to Buy and Sell Stock | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/121_best_time_to_buy_and_sell_stock
+| 141 | Linked List Cycle | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/141_linked_list_cycle
+| 142 | Linked List Cycle 2 | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/142_linked_list_cycle_2
+| 237 | Delete Node in a Linked List | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/237_delete_node_in_a_linked_list
+| 1394 | Find Lucky Integer in an Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1394_find_lucky_integer_in_an_array
 
 
 # 4. Solved problems break down

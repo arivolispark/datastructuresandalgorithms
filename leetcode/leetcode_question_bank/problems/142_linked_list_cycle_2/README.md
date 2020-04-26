@@ -1,6 +1,7 @@
-Leetcode problem #: 9
+Leetcode problem #:  142
 <br/>
-Level of difficulty:  Easy
+Title:  Linked List Cycle 2
 <br/>
-Reference:  https://leetcode.com/problems/palindrome-number/
-
+Level of difficulty:  Medium
+<br/>
+Reference:  https://leetcode.com/problems/linked-list-cycle-ii/
