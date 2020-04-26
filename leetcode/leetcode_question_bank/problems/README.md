@@ -1,5 +1,9 @@
+# Introduction
 
-**Leetcode problems link:**  https://leetcode.com/problemset/all/
+This repo has the solutions for Leetcode problems.  The Leetcode problems can be found [here](https://leetcode.com/problemset/all).
+
+
+# Problems break down
 
 <br/>
 <br/>
@@ -68,11 +72,8 @@ Updated_date:  2020_04_26_0857
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
 | Total | - | **399** | - | **727** | - | **299**
 
-<br/>
-<br/>
-**Problems with solutions**
-<br/>
-<br/>
+
+# Solved problems
 
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
@@ -84,6 +85,9 @@ Updated_date:  2020_04_26_0857
 | 142 | Linked List Cycle 2 | Medium | https://leetcode.com/problems/linked-list-cycle-ii/
 | 237 | Delete Node in a Linked List | Easy | https://leetcode.com/problems/delete-node-in-a-linked-list/
 | 1394 | Find Lucky Integer in an Array | Easy | https://leetcode.com/problems/find-lucky-integer-in-an-array/
+
+
+# Solved problems break down
 
 <br/>
 <br/>
@@ -154,6 +158,8 @@ Updated_date:  2020_04_26_0859
 
 <br/>
 <br/>
+
+# Solved problems stats
 
 | Name | Value
 | --- | --- 
