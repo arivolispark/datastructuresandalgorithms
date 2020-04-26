@@ -1,4 +1,6 @@
-Leetcode problem #: 9
-Level of difficulty:  Easy
-Reference:  https://leetcode.com/problems/palindrome-number/
+**Leetcode problem #**: 9
+<br/>
+**Level of difficulty**:  Easy
+<br/>
+**Reference**:  https://leetcode.com/problems/palindrome-number/
 
