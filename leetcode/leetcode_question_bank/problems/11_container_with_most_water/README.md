@@ -1,7 +1,3 @@
-Leetcode problem #:  11
-<br/>
-Title:  Container With Most Water	
-<br/>
-Level of difficulty:  Medium 
-<br/>
-Reference:  https://leetcode.com/problems/container-with-most-water/
+| Problem ID | Title | Difficulty | Reference
+| --- | --- | --- | ---
+| 11 | Container With Most Water | Medium | https://leetcode.com/problems/container-with-most-water/

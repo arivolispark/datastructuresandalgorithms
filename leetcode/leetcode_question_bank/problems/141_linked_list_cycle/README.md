@@ -1,7 +1,3 @@
-Leetcode problem #:  141
-<br/>
-Title:  Linked List Cycle
-<br/>
-Level of difficulty:  Easy
-<br/>
-Reference:  https://leetcode.com/problems/linked-list-cycle/
+| Problem ID | Title | Difficulty | Reference
+| --- | --- | --- | ---
+| 141 | Linked List Cycle | Easy | https://leetcode.com/problems/linked-list-cycle/
