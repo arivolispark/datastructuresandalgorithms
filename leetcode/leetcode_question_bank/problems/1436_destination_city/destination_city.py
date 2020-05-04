@@ -79,6 +79,6 @@ def test(got, expected):
 if __name__ == '__main__':
     solution = Solution()
 
-    test(solution.destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]),"Sao Paulo")
-    test(solution.destCity([["B","C"],["D","B"],["C","A"]]),"A")
-    test(solution.destCity([["A","Z"]]),"Z")
+    test(solution.destCity([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]), "Sao Paulo")
+    test(solution.destCity([["B", "C"], ["D", "B"], ["C", "A"]]), "A")
+    test(solution.destCity([["A", "Z"]]), "Z")
