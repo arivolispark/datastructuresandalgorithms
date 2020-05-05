@@ -76,14 +76,20 @@ The following table has the list of solved problems:
 
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
+| 1 | Two Sum | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1_two_sum
+| 7 | Reverse Integer | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/7_reverse_integer
 | 9 | Palindrome Number | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/9_palindrome_number
 | 11 | Container With Most Water | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/11_container_with_most_water
+| 20 | Valid Parentheses | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/20_valid_parentheses
 | 100 | Same Tree | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/100_same_tree
 | 121 | Best Time to Buy and Sell Stock | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/121_best_time_to_buy_and_sell_stock
 | 141 | Linked List Cycle | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/141_linked_list_cycle
 | 142 | Linked List Cycle 2 | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/142_linked_list_cycle_2
 | 237 | Delete Node in a Linked List | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/237_delete_node_in_a_linked_list
+| 476 | Number Complement | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/476_number_complement
+| 1009 | Complement of Base 10 Integer | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1009_complement_of_base_10_integer
 | 1394 | Find Lucky Integer in an Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1394_find_lucky_integer_in_an_array
+| 1436 | Destination City | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1436_destination_city
 
 
 # 4. Solved problems break down
@@ -132,7 +138,7 @@ Updated_date:  2020_04_26_0859
 | 926 - 950 | 8 | **269** | | 12 | **480** | | 5 | **201** |
 | 951 - 975 | 4 | **273** | | 14 | **494** | | 7 | **208** |
 | 976 - 1000 | 7 | **280** | | 12 | **506** | | 6 | **214** |
-| 1001 - 1025 | 9 | **289** | | 14 | **520** | | 2 | **216** |
+| 1001 - 1025 | 9 | **289** | 1 | 14 | **520** | | 2 | **216** |
 | 1026 - 1050 | 8 | **297** | | 13 | **533** | | 4 | **220** |
 | 1051 - 1075 | 8 | **305** | | 14 | **547** | | 3 | **223** |
 | 1076 - 1100 | 9 | **314** | | 11 | **558** | | 5 | **228** |
