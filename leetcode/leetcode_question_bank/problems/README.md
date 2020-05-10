@@ -5,7 +5,7 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 
 # 2. Problems break down
 
-Updated_date:  2020_04_26_0857
+Updated_date:  2020_05_10_1110
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
 | --- | --- | --- | --- | --- | --- | ---
@@ -66,8 +66,8 @@ Updated_date:  2020_04_26_0857
 | 1351 - 1375 | 6 | **387** | 13 | **702** | 6 | **286**
 | 1376 - 1400 | 6 | **393** | 13 | **715** | 6 | **292**
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
-| 1426 - 1439 | 5 | **404** | 7 | **734** | 2 | **301**
-| Total | - | **404** | - | **734** | - | **301**
+| 1426 - 1444 | 6 | **405** | 10 | **737** | 3 | **302**
+| Total | - | **405** | - | **737** | - | **302**
 
 
 # 3. Solved problems
@@ -94,7 +94,7 @@ The following table has the list of solved problems:
 
 # 4. Solved problems break down
 
-Updated_date:  2020_04_26_0859
+Updated_date:  2020_05_10_1111
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Easy* problems solved |  # of *Medium* problems | Cumulative # of *Medium* problems | # of *Medium* problems solved | # of *Hard* problems | Cumulative # of *Hard* problems | # of *Hard* problems solved
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -155,16 +155,16 @@ Updated_date:  2020_04_26_0859
 | 1351 - 1375 | 6 | **387** | | 13 | **702** | | 6 | **286** |
 | 1376 - 1400 | 6 | **393** | 1 | 13 | **715** | | 6 | **292** |
 | 1401 - 1425 | 6 | **399** | | 12 | **727** | | 7 | **299** |
-| 1426 - 1439 | 5 | **404** | 7 | **734** | 2 | **301**
-| Total | - | **404** | - | **734** | - | **301**
+| 1426 - 1444 | 6 | **405** | 10 | **737** | 3 | **302**
+| Total | - | **405** | - | **737** | - | **302**
 
 # 5. Solved problems stats
 
 | Name | Value
 | --- | --- 
-| Total number of problems | 1425
-| Total number of problems solved | 8 / 1425
-| Total number of problems solved - Easy | 6 / 399
-| Total number of problems solved - Medium | 2 / 727
-| Total number of problems solved - Hard | 0 / 299
+| Total number of problems | 1444
+| Total number of problems solved | 8 / 1444
+| Total number of problems solved - Easy | 6 / 405
+| Total number of problems solved - Medium | 2 / 737
+| Total number of problems solved - Hard | 0 / 302
 
