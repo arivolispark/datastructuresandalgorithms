@@ -38,7 +38,7 @@ class ListNode:
 class Solution:
 
     def oddEvenList(self, head: ListNode) -> ListNode:
-        if head is None or head.next is None:
+        if head is None or head.next is None or head.next.next is None:
             return head
 
         odd, temp_odd, first_odd = head, head, head
@@ -80,6 +80,64 @@ def create_list(head: ListNode) -> List[int]:
 
 def get_test_case_1_input():
     """
+    Input: NULL
+    :return:
+    """
+    return None
+
+
+def get_test_case_1_output():
+    """
+    Output: NULL
+    :return:
+    """
+    return None
+
+
+def get_test_case_2_input():
+    """
+    Input: 1->NULL
+    :return:
+    """
+    return ListNode(1)
+
+
+def get_test_case_2_output():
+    """
+    Output: 1->NULL
+    :return:
+    """
+    return ListNode(1)
+
+
+def get_test_case_3_input():
+    """
+    Input: 1->2->NULL
+    :return:
+    """
+    node_1 = ListNode(1)
+    node_2 = ListNode(2)
+
+    node_1.next = node_2
+
+    return node_1
+
+
+def get_test_case_3_output():
+    """
+    Output: 1->2->NULL
+    :return:
+    """
+    node_1 = ListNode(1)
+    node_2 = ListNode(2)
+
+    node_1.next = node_2
+
+    return node_1
+
+
+def get_test_case_4_input():
+    """
     Input: 1->2->3->4->5->NULL
     :return:
     """
@@ -98,7 +156,7 @@ def get_test_case_1_input():
     return node_1
 
 
-def get_test_case_1_output():
+def get_test_case_4_output():
     """
     Output: 1->3->5->2->4->NULL
     :return:
@@ -118,7 +176,49 @@ def get_test_case_1_output():
     return node_1
 
 
-def get_test_case_2_input():
+def get_test_case_5_input():
+    """
+    Input: 1->2->3->4->5->6->NULL
+    :return:
+    """
+    node_1 = ListNode(1)
+    node_2 = ListNode(2)
+    node_3 = ListNode(3)
+    node_4 = ListNode(4)
+    node_5 = ListNode(5)
+    node_6 = ListNode(6)
+
+    node_1.next = node_2
+    node_2.next = node_3
+    node_3.next = node_4
+    node_4.next = node_5
+    node_5.next = node_6
+
+    return node_1
+
+
+def get_test_case_5_output():
+    """
+    Output: 1->3->5->2->4->6->NULL
+    :return:
+    """
+    node_1 = ListNode(1)
+    node_2 = ListNode(3)
+    node_3 = ListNode(5)
+    node_4 = ListNode(2)
+    node_5 = ListNode(4)
+    node_6 = ListNode(6)
+
+    node_1.next = node_2
+    node_2.next = node_3
+    node_3.next = node_4
+    node_4.next = node_5
+    node_5.next = node_6
+
+    return node_1
+
+
+def get_test_case_6_input():
     """
     Input: 2->1->3->5->6->4->7->NULL
     :return:
@@ -141,7 +241,7 @@ def get_test_case_2_input():
     return node_1
 
 
-def get_test_case_2_output():
+def get_test_case_6_output():
     """
     Output: 2->3->6->7->1->5->4->NULL
     :return:
@@ -164,106 +264,6 @@ def get_test_case_2_output():
     return node_1
 
 
-def get_test_case_3_input():
-    """
-    Input: 2->1->3->5->6->4->NULL
-    :return:
-    """
-    node_1 = ListNode(1)
-    node_2 = ListNode(2)
-    node_3 = ListNode(3)
-    node_4 = ListNode(4)
-    node_5 = ListNode(5)
-    node_6 = ListNode(6)
-
-    node_1.next = node_2
-    node_2.next = node_3
-    node_3.next = node_4
-    node_4.next = node_5
-    node_5.next = node_6
-
-    return node_1
-
-
-def get_test_case_3_output():
-    """
-    Output: 2->3->6->1->5->4->NULL
-    :return:
-    """
-    node_1 = ListNode(1)
-    node_2 = ListNode(3)
-    node_3 = ListNode(5)
-    node_4 = ListNode(2)
-    node_5 = ListNode(4)
-    node_6 = ListNode(6)
-
-    node_1.next = node_2
-    node_2.next = node_3
-    node_3.next = node_4
-    node_4.next = node_5
-    node_5.next = node_6
-
-    return node_1
-
-
-def get_test_case_4_input():
-    """
-    Input: NULL
-    :return:
-    """
-    return None
-
-
-def get_test_case_4_output():
-    """
-    Output: NULL
-    :return:
-    """
-    return None
-
-
-def get_test_case_5_input():
-    """
-    Input: 1->NULL
-    :return:
-    """
-    return ListNode(1)
-
-
-def get_test_case_5_output():
-    """
-    Output: 1->NULL
-    :return:
-    """
-    return ListNode(1)
-
-
-def get_test_case_6_input():
-    """
-    Input: 1->2->NULL
-    :return:
-    """
-    node_1 = ListNode(1)
-    node_2 = ListNode(2)
-
-    node_1.next = node_2
-
-    return node_1
-
-
-def get_test_case_6_output():
-    """
-    Output: 1->2->NULL
-    :return:
-    """
-    node_1 = ListNode(1)
-    node_2 = ListNode(2)
-
-    node_1.next = node_2
-
-    return node_1
-
-
 def test(got, expected):
     if got == expected:
         prefix = ' OK '
@@ -281,4 +281,3 @@ if __name__ == "__main__":
     test(create_list(solution.oddEvenList(get_test_case_4_input())), create_list(get_test_case_4_output()))
     test(create_list(solution.oddEvenList(get_test_case_5_input())), create_list(get_test_case_5_output()))
     test(create_list(solution.oddEvenList(get_test_case_6_input())), create_list(get_test_case_6_output()))
-
