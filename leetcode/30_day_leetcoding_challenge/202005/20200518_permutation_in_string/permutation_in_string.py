@@ -85,6 +85,17 @@ def test(got, expected):
 if __name__ == "__main__":
     solution = Solution()
 
+    test(solution.findAnagrams(None, None), None)
+    test(solution.findAnagrams(None, ""), None)
+    test(solution.findAnagrams(None, "a"), None)
+    test(solution.findAnagrams(None, "ab"), None)
+    test(solution.findAnagrams("", ""), None)
+    test(solution.findAnagrams("", "a"), None)
+    test(solution.findAnagrams("", "ab"), None)
+    test(solution.findAnagrams("cbaebabacd", "abc"), [0, 6])
+    test(solution.findAnagrams("abab", "ab"), [0, 1, 2])
+    test(solution.findAnagrams("abacbabc", "abc"), [1, 2, 3, 5])
+
     test(solution.checkInclusion("ab", "eidbaooo"), True)
     test(solution.checkInclusion("ab", "eidboaoo"), False)
     test(solution.checkInclusion("a", "ab"), True)
