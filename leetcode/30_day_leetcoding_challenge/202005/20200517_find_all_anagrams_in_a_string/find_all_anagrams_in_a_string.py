@@ -44,23 +44,23 @@ class Solution:
 
     def findAnagrams(self, s: str, p: str) -> List[int]:
         if s and p:
-            n, m = len(s), len(p)
-            if n < m:
+            s_length, p_length = len(s), len(p)
+            if s_length < p_length:
                 return []
 
             p_char_frequency = Counter(p)
             s_char_frequency = Counter()
 
             result = []
-            for i in range(n):
+            for i in range(s_length):
                 s_char_frequency[s[i]] += 1
-                if i >= m:
-                    if s_char_frequency[s[i - m]] == 1:
-                        del s_char_frequency[s[i - m]]
+                if i >= p_length:
+                    if s_char_frequency[s[i - p_length]] == 1:
+                        del s_char_frequency[s[i - p_length]]
                     else:
-                        s_char_frequency[s[i - m]] -= 1
+                        s_char_frequency[s[i - p_length]] -= 1
                 if p_char_frequency == s_char_frequency:
-                    result.append(i - m + 1)
+                    result.append(i - p_length + 1)
             return result
         return None
 
