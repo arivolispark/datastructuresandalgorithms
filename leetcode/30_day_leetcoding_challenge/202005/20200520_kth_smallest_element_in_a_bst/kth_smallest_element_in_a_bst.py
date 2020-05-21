@@ -44,7 +44,6 @@ Constraints:
 """
 
 from typing import List
-from heapq import *
 
 
 # Definition for a binary tree node.
@@ -59,21 +58,21 @@ class TreeNode:
 class Solution:
 
     def kthSmallest(self, root: TreeNode, k: int) -> int:
-        min_heap = []
-        in_order(root, min_heap, k)
-        return min_heap[-1]
+        result = []
+        in_order(root, result, k)
+        return result[-1]
 
 
-def in_order(root: TreeNode, min_heap: List[int], k: int):
+def in_order(root: TreeNode, result: List[int], k: int):
     if root is None:
         return
 
-    in_order(root.left, min_heap, k)
+    in_order(root.left, result, k)
 
-    if len(min_heap) < k:
-        heappush(min_heap, root.val)
+    if len(result) < k:
+        result.append(root.val)
 
-    in_order(root.right, min_heap, k)
+    in_order(root.right, result, k)
 
 
 def get_test_case_1() -> TreeNode:
