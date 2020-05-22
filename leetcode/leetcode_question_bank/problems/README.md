@@ -5,7 +5,7 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 
 # 2. Problems break down
 
-Updated_date:  2020_05_10_1110
+Updated_date:  2020_05_21_2200
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
 | --- | --- | --- | --- | --- | --- | ---
@@ -66,8 +66,9 @@ Updated_date:  2020_05_10_1110
 | 1351 - 1375 | 6 | **387** | 13 | **702** | 6 | **286**
 | 1376 - 1400 | 6 | **393** | 13 | **715** | 6 | **292**
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
-| 1426 - 1444 | 6 | **405** | 10 | **737** | 3 | **302**
-| Total | - | **405** | - | **737** | - | **302**
+| 1426 - 1450 | 8 | **407** | 13 | **740** | 4 | **303**
+| 1451 - 1454 | 0 | **407** | 3 | **743** | 1 | **304**
+| Total | - | **407** | - | **743** | - | **304**
 
 
 # 3. Solved problems
@@ -156,15 +157,16 @@ Updated_date:  2020_05_10_1111
 | 1376 - 1400 | 6 | **393** | 1 | 13 | **715** | | 6 | **292** |
 | 1401 - 1425 | 6 | **399** | | 12 | **727** | | 7 | **299** |
 | 1426 - 1444 | 6 | **405** | 10 | **737** | 3 | **302**
-| Total | - | **405** | - | **737** | - | **302**
+| 1451 - 1454 | 0 | **407** | 3 | **743** | 1 | **304**
+| Total | - | **407** | - | **743** | - | **304**
 
 # 5. Solved problems stats
 
 | Name | Value
 | --- | --- 
-| Total number of problems | 1444
-| Total number of problems solved | 8 / 1444
-| Total number of problems solved - Easy | 6 / 405
-| Total number of problems solved - Medium | 2 / 737
-| Total number of problems solved - Hard | 0 / 302
+| Total number of problems | 1454
+| Total number of problems solved | 8 / 1454
+| Total number of problems solved - Easy | 6 / 407
+| Total number of problems solved - Medium | 2 / 743
+| Total number of problems solved - Hard | 0 / 304
 
