@@ -36,6 +36,8 @@ class Solution:
             for i in range(n):
                 if nums[i] == 0:
                     nums[i] = -1
+                else:
+                    nums[i] = 1
 
             for i in range(n):
                 current_sum += nums[i]
@@ -52,6 +54,9 @@ class Solution:
             for i in range(n):
                 if nums[i] == -1:
                     nums[i] = 0
+                else:
+                    nums[i] = 1
+
         return max_contiguous_array_length
 
 
