@@ -5,8 +5,6 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 
 # 2. Problems break down
 
-Updated_date:  2020_05_21_2200
-
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Medium* problems | Cumulative # of *Medium* problems | # of *Hard* problems | Cumulative # of *Hard* problems
 | --- | --- | --- | --- | --- | --- | ---
 | 1 - 25 | 7 | **7** | 14 | **14** | 4 | **4** 
@@ -67,8 +65,8 @@ Updated_date:  2020_05_21_2200
 | 1376 - 1400 | 6 | **393** | 13 | **715** | 6 | **292**
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
 | 1426 - 1450 | 8 | **407** | 13 | **740** | 4 | **303**
-| 1451 - 1454 | 0 | **407** | 3 | **743** | 1 | **304**
-| Total | - | **407** | - | **743** | - | **304**
+| 1451 - 1469 | 4 | **411** | 11 | **751** | 4 | **307**
+| Total | - | **411** | - | **751** | - | **307**
 
 
 # 3. Solved problems
@@ -94,8 +92,6 @@ The following table has the list of solved problems:
 
 
 # 4. Solved problems break down
-
-Updated_date:  2020_05_10_1111
 
 | Problem numbers | # of *Easy* problems | Cumulative # of *Easy* problems | # of *Easy* problems solved |  # of *Medium* problems | Cumulative # of *Medium* problems | # of *Medium* problems solved | # of *Hard* problems | Cumulative # of *Hard* problems | # of *Hard* problems solved
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -156,9 +152,9 @@ Updated_date:  2020_05_10_1111
 | 1351 - 1375 | 6 | **387** | | 13 | **702** | | 6 | **286** |
 | 1376 - 1400 | 6 | **393** | 1 | 13 | **715** | | 6 | **292** |
 | 1401 - 1425 | 6 | **399** | | 12 | **727** | | 7 | **299** |
-| 1426 - 1444 | 6 | **405** | 10 | **737** | 3 | **302**
-| 1451 - 1454 | 0 | **407** | 3 | **743** | 1 | **304**
-| Total | - | **407** | - | **743** | - | **304**
+| 1426 - 1444 | 6 | **405** | | 10 | **737** | | 3 | **302** |
+| 1451 - 1469 | 4 | **411** | | 11 | **751** | | 4 | **307** |
+| Total | - | **411** | | - | **751** | | - | **307** |
 
 # 5. Solved problems stats
 
