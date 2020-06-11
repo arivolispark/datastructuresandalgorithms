@@ -42,19 +42,20 @@ Constraints:
 
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        s_len, t_len = len(s), len(t)
+        if s and t:
+            s_len, t_len = len(s), len(t)
 
-        if s_len == t_len == 0:
-            return True
+            if s_len == t_len == 0:
+                return True
 
-        i, j = 0, 0
+            i, j = 0, 0
 
-        while i < s_len and j < t_len:
-            if s[i] == t[j]:
-                i += 1
-            j += 1
+            while i < s_len and j < t_len:
+                if s[i] == t[j]:
+                    i += 1
+                j += 1
 
-        return i == s_len
+            return i == s_len
 
 
 def test(got, expected):
@@ -68,5 +69,8 @@ def test(got, expected):
 if __name__ == "__main__":
     solution = Solution()
 
+    test(solution.isSubsequence(None, "ahbgdc"), None)
+    test(solution.isSubsequence("abc", None), None)
+    test(solution.isSubsequence(None, None), None)
     test(solution.isSubsequence("abc", "ahbgdc"), True)
     test(solution.isSubsequence("axc", "ahbgdc"), False)
