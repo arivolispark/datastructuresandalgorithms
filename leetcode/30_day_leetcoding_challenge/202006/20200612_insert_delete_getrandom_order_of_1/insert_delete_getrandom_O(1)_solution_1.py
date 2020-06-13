@@ -118,6 +118,28 @@ def get_test_case_2():
     print(random_value)
 
 
+def get_test_case_3():
+    """
+    Input:  ["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]
+    [[], [1], [2], [2], [], [1], [2], []]
+    Output:  [null,true,false,true,1,false,false,2]
+    Expected:  [null,true,false,true,2,true,false,2]
+    """
+
+    obj = RandomizedSet()
+
+    obj.insert(1)
+    obj.remove(2)
+    obj.insert(2)
+    random_value = obj.getRandom()
+    print(random_value)
+
+    obj.remove(1)
+    obj.insert(2)
+    random_value = obj.getRandom()
+    print(random_value)
+
+
 def test(got, expected):
     if got == expected:
         prefix = ' OK '
@@ -128,4 +150,5 @@ def test(got, expected):
 
 if __name__ == "__main__":
     #get_test_case_1()
-    get_test_case_2()
+    #get_test_case_2()
+    get_test_case_3()
