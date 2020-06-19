@@ -63,6 +63,7 @@ if __name__ == "__main__":
     solution = Solution()
 
     test(solution.h_index([]), 0)
+    test(solution.h_index([3,0,6,1,5]), 3)
     test(solution.h_index([0,1,3,5,6]), 3)
     test(solution.h_index([2,2,2,2,2]), 2)
     test(solution.h_index([0,0,0,9,9,9]), 3)
