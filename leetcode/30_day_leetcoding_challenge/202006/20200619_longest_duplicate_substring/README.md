@@ -13,7 +13,7 @@ Best algorithms have a linear execution time in average.  The most popular ones 
 | --- | --- | --- 
 | 1 | Aho-Corasick | is used by fgrep 
 | 2 | KMP | is used for Chinese string searching 
-| 3 | Rabin-Karp | is used for Plagiarism detection and in Bioinformatics to look for similarities in two or more proteins
+| 3 | Rabin-Karp | is used for: (1) Plagiarism detection and (2) in Bioinformatics to look for similarities in two or more proteins
 
 <br/>
 The first two are optimised for a single pattern search, and Rabin-Karp for a multiple pattern search, that is exactly the case here.
