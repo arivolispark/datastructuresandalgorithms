@@ -60,19 +60,7 @@ class Solution:
         if start == end:
             return start
 
-    def arrangeCoins_1(self, n: int) -> int:
-        sum, i = 0, 1
-
-        while True:
-            sum += i
-            if sum > n:
-                return i - 1
-            elif sum == n:
-                return i
-            else:
-                i += 1
-
-
+        
 def get_sum(mid: int) -> int:
     return mid * (mid + 1) // 2
 
