@@ -65,7 +65,8 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 | 1376 - 1400 | 6 | **393** | 13 | **715** | 6 | **292**
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
 | 1426 - 1450 | 8 | **407** | 13 | **740** | 4 | **303**
-| 1451 - 1469 | 4 | **411** | 11 | **751** | 4 | **307**
+| 1451 - 1475 | 7 | **414** | 13 | **753** | 5 | **308**
+| 1476 - 1499 | 6 | **420** | 12 | **765** | 6 | **314**
 | Total | - | **411** | - | **751** | - | **307**
 
 
@@ -89,6 +90,7 @@ The following table has the list of solved problems:
 | 1009 | Complement of Base 10 Integer | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1009_complement_of_base_10_integer
 | 1394 | Find Lucky Integer in an Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1394_find_lucky_integer_in_an_array
 | 1436 | Destination City | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1436_destination_city
+| 1480 | Running Sum of 1d Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1480_running_sum_of_1D_array
 
 
 # 4. Solved problems break down
@@ -153,8 +155,10 @@ The following table has the list of solved problems:
 | 1376 - 1400 | 6 | **393** | 1 | 13 | **715** | | 6 | **292** |
 | 1401 - 1425 | 6 | **399** | | 12 | **727** | | 7 | **299** |
 | 1426 - 1444 | 6 | **405** | | 10 | **737** | | 3 | **302** |
-| 1451 - 1469 | 4 | **411** | | 11 | **751** | | 4 | **307** |
-| Total | - | **411** | | - | **751** | | - | **307** |
+| 1426 - 1450 | 8 | **407** | 13 | **740** | 4 | **303**
+| 1451 - 1475 | 7 | **414** | 13 | **753** | 5 | **308**
+| 1476 - 1499 | 6 | **420** | 12 | **765** | 6 | **314**
+| Total | - | **420** | | - | **765** | | - | **314** |
 
 # 5. Solved problems stats
 
