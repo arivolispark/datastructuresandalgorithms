@@ -25,13 +25,8 @@ class Solution:
 
         ugly_numbers[0] = 1
 
-        next_multiple_of_2 = 2
-        next_multiple_of_3 = 3
-        next_multiple_of_5 = 5
-
-        index_of_2_list = 0
-        index_of_3_list = 0
-        index_of_5_list = 0
+        next_multiple_of_2, next_multiple_of_3, next_multiple_of_5 = 2, 3, 5
+        index_of_2_list, index_of_3_list, index_of_5_list = 0, 0, 0
 
         for i in range(1, n):
             ugly_numbers[i] = min(next_multiple_of_2, next_multiple_of_3, next_multiple_of_5)
