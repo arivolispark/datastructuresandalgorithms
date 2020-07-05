@@ -3,8 +3,6 @@
 | 1108 | Defanging an IP Address | Easy | https://leetcode.com/problems/defanging-an-ip-address/
 
 
-<br/>
-<br/>
 # Related problems:
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
