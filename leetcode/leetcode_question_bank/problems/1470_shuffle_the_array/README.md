@@ -3,10 +3,7 @@
 | 1470 | Shuffle the Array | Easy | https://leetcode.com/problems/shuffle-the-array/
 
 
-<br/>
-<br/>
-Related problems:
-<br/>
+# Related problems:
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
 | 1338 | Reduce Array Size to The Half | Medium | https://leetcode.com/problems/reduce-array-size-to-the-half/
