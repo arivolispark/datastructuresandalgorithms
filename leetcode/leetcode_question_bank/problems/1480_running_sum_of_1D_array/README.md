@@ -3,10 +3,7 @@
 | 1480 | Running Sum of 1d Array | Easy | https://leetcode.com/problems/running-sum-of-1d-array/
 
 
-<br/>
-<br/>
-Related problems:
-<br/>
+# Related problems:
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
 | 605 | Can Place Flowers | Easy | https://leetcode.com/problems/can-place-flowers/ 
