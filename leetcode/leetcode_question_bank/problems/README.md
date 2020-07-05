@@ -88,8 +88,10 @@ The following table has the list of solved problems:
 | 237 | Delete Node in a Linked List | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/237_delete_node_in_a_linked_list
 | 476 | Number Complement | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/476_number_complement
 | 1009 | Complement of Base 10 Integer | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1009_complement_of_base_10_integer
+| 1108 | Defanging an IP Address | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1108_defanging_an_ip_address
 | 1394 | Find Lucky Integer in an Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1394_find_lucky_integer_in_an_array
 | 1436 | Destination City | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1436_destination_city
+| 1470 | Shuffle the Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1470_shuffle_the_array
 | 1480 | Running Sum of 1d Array | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/1480_running_sum_of_1D_array
 
 
