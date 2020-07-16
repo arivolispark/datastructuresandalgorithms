@@ -45,7 +45,7 @@ class Solution:
                 if word_list[i] is not "":
                     reversed_word_list.append(word_list[i])
 
-            if len(reversed_word_list) > 0:
+            if reversed_word_list:
                 result = " ".join(reversed_word_list)
         return result
 
