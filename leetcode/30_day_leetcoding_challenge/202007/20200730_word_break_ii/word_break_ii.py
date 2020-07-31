@@ -87,5 +87,3 @@ if __name__ == "__main__":
     test(solution.wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]), ["pine apple pen apple", "pineapple pen apple", "pine applepen apple"])
     test(solution.wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]), [])
 
-
-
