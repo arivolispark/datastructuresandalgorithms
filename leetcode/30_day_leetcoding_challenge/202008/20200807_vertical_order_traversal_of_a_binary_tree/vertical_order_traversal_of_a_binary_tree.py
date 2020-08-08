@@ -79,7 +79,7 @@ class Solution:
         if root is None:
             return result
         vertical_order_map = {}
-        self.min_c, self_max_c = 0, 0
+        self.min_c, self.max_c = 0, 0
 
         def dfs(node, r, c):
             if node is None:
@@ -103,82 +103,6 @@ class Solution:
             result.append(col_sorted)
 
         return result
-
-
-    def verticalTraversal_1(self, root: TreeNode) -> List[List[int]]:
-        result = []
-
-        vertical_order_node_list = []
-        inorder_traversal(root, vertical_order_node_list, 0, 0)
-
-        vertical_order_map = {}
-        vertical_order_list = []
-
-        for i in range(len(vertical_order_node_list)):
-            node = vertical_order_node_list[i][0]
-            y = vertical_order_node_list[i][1]
-
-            if y not in vertical_order_list:
-                vertical_order_list.append(y)
-
-            if y not in vertical_order_map:
-                vertical_order_map[y] = [node]
-            else:
-                l = vertical_order_map[y]
-                l.append(node)
-
-        #print(" vertical_order_map: ", vertical_order_map)
-        #print(" vertical_order_list: ", vertical_order_list)
-
-        for i in range(len(vertical_order_list)):
-            l = vertical_order_map.get(vertical_order_list[i])
-            l.sort()
-            result.append(l)
-        return result
-
-    def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
-        result = []
-        vertical_order_traversal_map = {}
-        vertical_order_node_list = []
-
-        printVertical(root, 0, vertical_order_traversal_map)
-
-        # traverse the dictionary and print vertical nodes
-        #print(" vertical_order_traversal_map: ", vertical_order_traversal_map)
-        #for value in vertical_order_traversal_map.values():
-        #    print(value)
-
-        for key in vertical_order_traversal_map.keys():
-            vertical_order_node_list.append(key)
-        vertical_order_node_list.sort()
-        #print(" vertical_order_node_list: ", vertical_order_node_list)
-
-        for i in range(len(vertical_order_node_list)):
-            #result.append(i)
-            result.append(vertical_order_traversal_map.get(vertical_order_node_list[i]))
-        return result
-
-
-def printVertical(node, distance, vertical_order_traversal_map):
-    if node is None:
-        return
-
-    # insert nodes present at current horizontal distance into the dict
-    vertical_order_traversal_map.setdefault(distance, []).append(node.val)
-
-    # recur for left subtree by decreasing horizontal distance by 1
-    printVertical(node.left, distance - 1, vertical_order_traversal_map)
-
-    # recur for right subtree by increasing horizontal distance by 1
-    printVertical(node.right, distance + 1, vertical_order_traversal_map)
-
-
-def inorder_traversal(root: TreeNode, result: List[int], x, y):
-    if root is None:
-        return
-    inorder_traversal(root.left, result, x - 1, y - 1)
-    result.append([root.val, x, y])
-    inorder_traversal(root.right, result, x + 1, y - 1)
 
 
 def get_test_case_1_input() -> TreeNode:
