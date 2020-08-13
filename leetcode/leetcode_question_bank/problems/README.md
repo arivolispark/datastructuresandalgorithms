@@ -66,8 +66,10 @@ This repo has the solutions for Leetcode problems.  The Leetcode problems can be
 | 1401 - 1425 | 6 | **399** | 12 | **727** | 7 | **299**
 | 1426 - 1450 | 8 | **407** | 13 | **740** | 4 | **303**
 | 1451 - 1475 | 7 | **414** | 13 | **753** | 5 | **308**
-| 1476 - 1499 | 6 | **420** | 12 | **765** | 6 | **314**
-| Total | - | **420** | - | **765** | - | **314**
+| 1476 - 1500 | 6 | **420** | 13 | **766** | 6 | **314**
+| 1501 - 1525 | 7 | **427** | 12 | **778** | 6 | **320**
+| 1526 - 1548 | 6 | **433** | 11 | **789** | 6 | **326**
+| Total | - | **433** | - | **789** | - | **326**
 
 
 # 3. Solved problems
@@ -82,6 +84,7 @@ The following table has the list of solved problems:
 | 11 | Container With Most Water | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/11_container_with_most_water
 | 20 | Valid Parentheses | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/20_valid_parentheses
 | 100 | Same Tree | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/100_same_tree
+| 118 | Pascal's Triangle | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/118_pascals_triangle
 | 121 | Best Time to Buy and Sell Stock | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/121_best_time_to_buy_and_sell_stock
 | 141 | Linked List Cycle | Easy | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/141_linked_list_cycle
 | 142 | Linked List Cycle 2 | Medium | https://github.com/arivolispark/datastructuresandalgorithms/tree/master/leetcode/leetcode_question_bank/problems/142_linked_list_cycle_2
@@ -158,8 +161,10 @@ The following table has the list of solved problems:
 | 1401 - 1425 | 6 | **399** | | 12 | **727** | | 7 | **299** |
 | 1426 - 1450 | 8 | **407** | | 13 | **740** | | 4 | **303** |
 | 1451 - 1475 | 7 | **414** | | 13 | **753** | | 5 | **308** |
-| 1476 - 1499 | 6 | **420** | | 12 | **765** | | 6 | **314** |
-| Total | - | **420** | | - | **765** | | - | **314** |
+| 1476 - 1500 | 6 | **420** | 13 | **766** | 6 | **314**
+| 1501 - 1525 | 7 | **427** | 12 | **778** | 6 | **320**
+| 1526 - 1548 | 6 | **433** | 11 | **789** | 6 | **326**
+| Total | - | **433** | | - | **789** | | - | **326** |
 
 # 5. Solved problems stats
 
