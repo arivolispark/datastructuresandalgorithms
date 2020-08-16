@@ -54,7 +54,14 @@ class CombinationIterator:
 
 
 def get_test_case_1():
-    pass
+    combinationIterator = CombinationIterator("abc", 2)
+    combinationIterator.next() # "ab"
+    combinationIterator.hasNext() # True
+    combinationIterator.next() # "ac"
+    combinationIterator.hasNext() # True
+    combinationIterator.next() # "bc"
+    combinationIterator.hasNext() # False
+
 
 # Your CombinationIterator object will be instantiated and called as such:
 # obj = CombinationIterator(characters, combinationLength)
@@ -71,4 +78,4 @@ def test(got, expected):
 
 
 if __name__ == "__main__":
-    pass
+    get_test_case_1()
