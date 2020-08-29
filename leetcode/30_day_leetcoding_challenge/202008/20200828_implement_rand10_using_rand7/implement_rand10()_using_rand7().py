@@ -40,6 +40,9 @@ Constraints:
 # def rand7():
 # @return a random integer in the range 1 to 7
 
+import random
+
+
 class Solution:
 
     def rand10(self):
@@ -54,8 +57,8 @@ class Solution:
         return v1 if (v2 <= 3) else (v1 + 5)
 
 
-def rand7():
-    pass
+def rand7() -> int:
+    return random.randint(1, 7)
 
 
 def test(got, expected):
