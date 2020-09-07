@@ -126,7 +126,7 @@ public class Solution {
         for (int i=0; i<n; i+=4) {
             char[] temp = new char[4];
             len = read4(temp);
-            System.arraycopy(temp, 0, bug, i, Math.min(len, n - i));
+            System.arraycopy(temp, 0, buf, i, Math.min(len, n - i));
             if (len < 4) {
                 return Math.min(i + len, n);
             }
