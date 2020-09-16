@@ -2,7 +2,7 @@
 <br/>
 Insert Interval
 <br/>
-https://www.educative.io/courses/grokking-the-coding-interview/3jKlyNMJPEMa
+https://www.educative.io/courses/grokking-the-coding-interview/3jKlyNMJPEM
 
 <br/>
 <br/>
