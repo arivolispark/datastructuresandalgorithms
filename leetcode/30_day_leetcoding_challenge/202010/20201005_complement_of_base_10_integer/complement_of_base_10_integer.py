@@ -59,6 +59,7 @@ if __name__ == "__main__":
     solution = Solution()
 
     test(solution.bitwiseComplement(0), 1)
+    test(solution.bitwiseComplement(1), 0)
     test(solution.bitwiseComplement(5), 2)
     test(solution.bitwiseComplement(7), 0)
     test(solution.bitwiseComplement(10), 5)
