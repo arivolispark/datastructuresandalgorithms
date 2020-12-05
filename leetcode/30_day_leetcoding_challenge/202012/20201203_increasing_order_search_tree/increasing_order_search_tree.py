@@ -9,6 +9,24 @@ no left child and only one right child.
 
 Example 1:
 
+         5                   1
+       /   \                  \
+      3     6                  2
+     / \     \     ==>          \
+    2   4     8                  3
+   /         / \                  \
+  1         7   9                  4
+                                    \
+                                     5
+                                      \
+                                       6
+                                        \
+                                         7
+                                          \
+                                           8
+                                            \
+                                             9
+
 
 Input: root = [5,3,6,2,4,null,8,1,null,null,null,7,9]
 Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
@@ -17,6 +35,12 @@ Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
 
 Example 2:
 
+
+         5                   1
+       /   \      ==>         \
+      1     7                  5
+                                \
+                                 7
 
 Input: root = [5,1,7]
 Output: [1,null,5,null,7]
@@ -82,6 +106,28 @@ def test(got, expected):
 
 
 def get_test_case_1_input():
+    """
+
+         5                   1
+       /   \                  \
+      3     6                  2
+     / \     \     ==>          \
+    2   4     8                  3
+   /         / \                  \
+  1         7   9                  4
+                                    \
+                                     5
+                                      \
+                                       6
+                                        \
+                                         7
+                                          \
+                                           8
+                                            \
+                                             9
+
+    """
+
     node_1 = TreeNode(1)
     node_2 = TreeNode(2)
     node_3 = TreeNode(3)
@@ -132,6 +178,16 @@ def get_test_case_1_output():
 
 
 def get_test_case_2_input():
+    """
+
+         5                   1
+       /   \      ==>         \
+      1     7                  5
+                                \
+                                 7
+
+    """
+
     node_1 = TreeNode(1)
     node_5 = TreeNode(5)
     node_7 = TreeNode(7)
