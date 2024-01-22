@@ -20,7 +20,6 @@ class Solution:
             while start < length:
                 result += map[s[start]]
 
-                #for i in range(0, length - 1):
                 if s[start] == "I" and start + 1 < length:
                     if s[start + 1] == "V" or s[start + 1] == "X":
                         result -= 2 * map["I"]
