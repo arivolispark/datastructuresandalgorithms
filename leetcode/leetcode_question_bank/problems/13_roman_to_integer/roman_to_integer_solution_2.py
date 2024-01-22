@@ -15,21 +15,28 @@ class Solution:
         else:
             result = 0
             length = len(s)
-            for i in range(0, length):
-                result += map[s[i]]
 
-            for i in range(0, length - 1):
-                if s[i] == "I" and i + 1 <= length:
-                    if s[i + 1] == "V" or s[i + 1] == "X":
+            start = 0
+            while start < length:
+                result += map[s[start]]
+
+                #for i in range(0, length - 1):
+                if s[start] == "I" and start + 1 < length:
+                    if s[start + 1] == "V" or s[start + 1] == "X":
                         result -= 2 * map["I"]
-                elif s[i] == "X" and i + 1 <= length:
-                    if s[i + 1] == "L" or s[i + 1] == "C":
+                elif s[start] == "X" and start + 1 < length:
+                    if s[start + 1] == "L" or s[start + 1] == "C":
                         result -= 2 * map["X"]
-                elif s[i] == "C" and i + 1 <= length:
-                    if s[i + 1] == "D" or s[i + 1] == "M":
+                elif s[start] == "C" and start + 1 < length:
+                    if s[start + 1] == "D" or s[start + 1] == "M":
                         result -= 2 * map["C"]
-            return result
+                start += 1
 
+            if start == length - 1:
+                result += map[s[start + 1]]
+
+            return result
+            
 
 def test(got, expected):
     if got == expected:
