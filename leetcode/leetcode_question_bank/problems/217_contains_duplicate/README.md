@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 217 | Same Tree | Easy | https://leetcode.com/problems/same-tree/
+| 217 | Contains Duplicate | Easy | https://leetcode.com/problems/contains-duplicate/
