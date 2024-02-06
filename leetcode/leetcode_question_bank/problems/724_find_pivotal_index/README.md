@@ -6,4 +6,4 @@
 # Related problems:
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 557 | Reverse Words in a String III | Easy | https://leetcode.com/problems/reverse-words-in-a-string-iii/
+| 1991 | Find the Middle Index in Array | Easy | https://leetcode.com/problems/find-the-middle-index-in-array/
