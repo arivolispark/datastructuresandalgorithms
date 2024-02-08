@@ -1,6 +1,6 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 724 | Find Pivotal index | Easy | https://leetcode.com/problems/find-pivot-index/
+| 724 | Find Pivot index | Easy | https://leetcode.com/problems/find-pivot-index/
 
 
 # Related problems:
