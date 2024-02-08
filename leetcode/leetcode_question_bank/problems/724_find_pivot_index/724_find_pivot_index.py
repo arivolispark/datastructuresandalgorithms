@@ -48,19 +48,38 @@ from typing import List
 
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
-        if nums:
-            sum, l_sum, r_sum = 0, 0, 0
-            for i in range(len(nums)):
-                sum += nums[i]
-            r_sum = sum
+        """
+        Args:
+         numbers(list_int32)
+        Returns:
+         int32
+        """
+        # Write your code here.
 
-            i = 0
-            while i < len(nums):
-                if l_sum == r_sum - nums[i]:
-                    return i
-                i += 1
-                l_sum += nums[i - 1]
-                r_sum -= nums[i - 1]
+        length = len(nums)
+
+        sum = 0
+
+        for i in range(length):
+            sum += nums[i]
+
+        if 0 == sum - nums[0]:
+            return 0
+
+        i, j = 0, length - 1
+        left_sum, right_sum = 0, sum - nums[0]
+
+        while i < j:
+            if left_sum == right_sum:
+                return i
+
+            i += 1
+            left_sum += nums[i - 1]
+            right_sum -= nums[i]
+
+        if 0 == sum - nums[length - 1]:
+            return length - 1
+
         return -1
 
 
