@@ -1,5 +1,5 @@
 """
-Title:  724. Find Pivotal index
+Title:  724. Find Pivot index
 
 
 Given an array of integers nums, calculate the pivot index of this array.
