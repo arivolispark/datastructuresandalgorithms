@@ -51,8 +51,9 @@ import math
 class Solution:
 
     def thirdMax(self, nums: List[int]) -> int:
-        min_heap = []
         dict = {}
+        min_heap = []
+        result = []
 
         if nums:
             for i in range(len(nums)):
@@ -60,14 +61,10 @@ class Solution:
                     dict[nums[i]] = nums[i]
                     heappush(min_heap, nums[i])
 
-            result = -math.inf
-            if len(min_heap) >= 3:
-                while len(min_heap) >= 3:
-                    result = heappop(min_heap)
-            else:
-                while len(min_heap) >= 1:
-                    result = heappop(min_heap)
-            return result
+            while min_heap:
+                result.append(heappop(min_heap))
+
+            return result[-3] if len(result) >= 3 else result[-1]
 
 
 def test(got, expected):
