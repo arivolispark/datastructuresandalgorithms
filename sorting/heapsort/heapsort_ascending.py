@@ -1,5 +1,5 @@
 """
-Title:  Sort a list of integers in ascending order after removing duplicates
+Title:  Sort a list of positive integers in ascending order after removing duplicates
 
 
 Example 1:
