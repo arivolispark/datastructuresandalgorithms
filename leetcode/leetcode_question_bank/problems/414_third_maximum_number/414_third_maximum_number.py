@@ -58,9 +58,7 @@ class Solution:
             for i in range(len(nums)):
                 if nums[i] not in dict:
                     dict[nums[i]] = nums[i]
-
-            for k, v in dict.items():
-                heappush(min_heap, k)
+                    heappush(min_heap, nums[i])
 
             result = -math.inf
             if len(min_heap) >= 3:
