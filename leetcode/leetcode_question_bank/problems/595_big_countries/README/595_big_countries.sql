@@ -1,15 +1,3 @@
-SELECT 
-name, population, area
-FROM 
-"leetcode"."leetcode_question_bank"."World"
-WHERE
-area >= 3000000
-OR
-population >= 25000000
-;
-
----
-
 -- Database: leetcode
 -- Schema: leetcode_question_bank
 
