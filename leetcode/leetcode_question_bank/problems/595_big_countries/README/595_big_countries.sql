@@ -22,6 +22,7 @@ INSERT INTO "leetcode"."leetcode_question_bank"."World" (name, continent, area, 
 SELECT * FROM "leetcode"."leetcode_question_bank"."World";
 
 
+--- Problem solution
 SELECT 
 name, population, area
 FROM 
