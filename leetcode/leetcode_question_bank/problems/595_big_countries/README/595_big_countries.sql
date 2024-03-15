@@ -22,7 +22,7 @@ INSERT INTO "leetcode"."leetcode_question_bank"."World" (name, continent, area, 
 SELECT * FROM "leetcode"."leetcode_question_bank"."World";
 
 
---- Problem solution
+--- Start of Problem solution
 SELECT 
 name, population, area
 FROM 
@@ -32,3 +32,4 @@ area >= 3000000
 OR
 population >= 25000000
 ;
+--- End of Problem solution
