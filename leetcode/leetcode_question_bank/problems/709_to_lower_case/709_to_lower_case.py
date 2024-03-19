@@ -23,7 +23,6 @@ class Solution:
             "T": "t",
             "U": "u",
             "V": "v",
-
             "W": "w",
             "X": "x",
             "Y": "y",
