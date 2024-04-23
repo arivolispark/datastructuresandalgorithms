@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 2778 | Sum of Squares of Special Elements  | Easy | https://leetcode.com/problems/sum-of-squares-of-special-elements/
