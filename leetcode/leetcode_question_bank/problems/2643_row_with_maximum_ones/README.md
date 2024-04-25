@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 2643 | Row With Maximum Ones | Easy | https://leetcode.com/problems/row-with-maximum-ones/
