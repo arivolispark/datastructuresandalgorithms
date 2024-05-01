@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 884 | Uncommon Words from Two Sentences | Easy | https://leetcode.com/problems/uncommon-words-from-two-sentences/
