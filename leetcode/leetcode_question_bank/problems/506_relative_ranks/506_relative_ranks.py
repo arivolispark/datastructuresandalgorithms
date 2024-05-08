@@ -14,6 +14,7 @@ class Solution:
             while max_heap:
                 value = -heappop(max_heap)
                 ranking += 1
+                
                 if ranking == 1:
                     ranking_map[value] = "Gold Medal"
                 elif ranking == 2:
