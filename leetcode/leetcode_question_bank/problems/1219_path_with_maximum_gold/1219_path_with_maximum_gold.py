@@ -77,7 +77,7 @@ class Solution:
                 if 0 <= x2 < rows and 0 <= y2 < columns and grid[x2][y2] > 0:
                     visit(x2, y2, current + grid[x2][y2])
 
-            grid[x1][y1] =  previous
+            grid[x1][y1] = previous
 
         for i in range(rows):
             for j in range(columns):
