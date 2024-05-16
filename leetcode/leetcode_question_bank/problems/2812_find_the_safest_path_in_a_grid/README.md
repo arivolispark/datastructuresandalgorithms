@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Medium | 
+| 2812 | Find the Safest Path in a Grid | Medium | 
