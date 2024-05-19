@@ -1,9 +1,8 @@
 class Solution:
     def maximumValueSum(self, nums: List[int], k: int, edges: List[List[int]]) -> int:
         result = 0
-        num_of_nodes = len(nums)
-
         deltas = []
+        
         for x in nums:
             deltas.append((x ^ k) - x)
 
@@ -13,7 +12,7 @@ class Solution:
         result = total
 
         i = 0
-        while i + 1 < num_of_nodes:
+        while i + 1 < len(nums):
             total += deltas[i] + deltas[i + 1]
             result = max(result, total)
             i += 2
