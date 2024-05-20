@@ -57,19 +57,19 @@ class Solution:
 
     def subsetXORSum(self, nums: List[int]) -> int:
 
-        def calculate_xor_sum(index, current):
+        def calculate_sum_all_subset_xor_totals(index: int, current: int):
             total = 0
 
             if index == len(nums):
                 return current
 
-            total += calculate_xor_sum(index + 1, current)
-            total += calculate_xor_sum(index + 1, current ^ nums[index])
+            total += calculate_sum_all_subset_xor_totals(index + 1, current)
+            total += calculate_sum_all_subset_xor_totals(index + 1, current ^ nums[index])
 
             return total
 
-        return calculate_xor_sum(0, 0)
-
+        return calculate_sum_all_subset_xor_totals(0, 0)
+                
 
 def test(got, expected):
     if got == expected:
