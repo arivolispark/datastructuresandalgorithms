@@ -18,4 +18,4 @@ class Solution:
                 counter[nums[index]] -= 1
             return total
 
-        return recurse(0, Counter()) - 1        
+        return recurse(0, Counter()) - 1
