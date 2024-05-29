@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 1404 | Number of Steps to Reduce a Number in Binary Representation to One | Easy | 
