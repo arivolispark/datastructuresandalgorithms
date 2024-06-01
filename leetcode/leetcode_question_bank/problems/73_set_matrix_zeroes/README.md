@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 73 | Set Matrix Zeroes | Easy | https://leetcode.com/problems/set-matrix-zeroes/
+| 73 | Set Matrix Zeroes | Medium | https://leetcode.com/problems/set-matrix-zeroes/
