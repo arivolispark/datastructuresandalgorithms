@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 73 | Set Matrix Zeroes | Easy | https://leetcode.com/problems/set-matrix-zeroes/
