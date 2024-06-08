@@ -55,15 +55,14 @@ class Solution:
         remainder = 0
 
         for i in range(len(nums)):
-            remainder += nums[i]
-            remainder %= k
+            remainder = (remainder + nums[i]) % k 
 
-            if remainder in remainder_map:
+            if remainder not in remainder_map:
+                remainder_map[remainder] = i
+            else:
                 if i - remainder_map[remainder] >= 2:
                     return True
-            else:
-                remainder_map[remainder] = i
-
+        
         return False
 
 
