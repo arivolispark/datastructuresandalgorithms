@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 1002 | Find Common Characters | Easy | 
+| 1122 | Relative Sort Array | Easy | 
