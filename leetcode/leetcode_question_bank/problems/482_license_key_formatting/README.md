@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 482 | License Key Formatting | Easy | https://leetcode.com/problems/license-key-formatting/
