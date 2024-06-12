@@ -12,10 +12,8 @@ class Solution:
         
         if 0 in map:
             red = map[0]
-
         if 1 in map:
             white = map[1]
-        
         if 2 in map:
             blue = map[2]
 
