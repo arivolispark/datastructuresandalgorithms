@@ -176,3 +176,6 @@ The following table has the list of solved problems:
 | Total number of problems solved - Medium | 56 / 765
 | Total number of problems solved - Hard | 5 / 314
 
+# 6. TO DO
+
+945. Minimum Increment to Make Array Unique
