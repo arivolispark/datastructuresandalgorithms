@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 502 | IPO  | Easy | https://leetcode.com/problems/ipo/
+| 502 | IPO  | Hard | https://leetcode.com/problems/ipo/
