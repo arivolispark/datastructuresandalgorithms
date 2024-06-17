@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Hard | 
+| 330 | Patching Array | Hard | https://leetcode.com/problems/patching-array/
