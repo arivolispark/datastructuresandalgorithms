@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | https://leetcode.com/problems/same-tree/
+| 1482 | Minimum Number of Days to Make m Bouquets | Easy | 
