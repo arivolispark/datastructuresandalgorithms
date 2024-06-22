@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Medium | 
+| 1052 | Grumpy Bookstore Owner | Medium | 
