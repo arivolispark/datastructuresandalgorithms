@@ -68,23 +68,6 @@ class Solution:
             max_window_sum = max(window_sum, max_window_sum)
         return satisfied_sum + max_window_sum
 
-    def maxSatisfied_1(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        satisfied = 0
-        left = 0
-        window, max_window = 0, 0
-        for i in range(len(customers)):
-            if grumpy[i]:
-                window += customers[i]
-            else:
-                satisfied += customers[i]
-
-            if i - left + 1 > minutes:
-                if grumpy[left]:
-                    window -= customers[left]
-                left += 1
-            max_window = max(max_window, window)
-        return satisfied + max_window
-
 
 def test(got, expected):
     if got == expected:
