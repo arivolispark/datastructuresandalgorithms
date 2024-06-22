@@ -47,28 +47,6 @@ from typing import List
 class Solution:
 
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        length = len(customers)
-        satisfied_sum = 0
-
-        for i in range(length):
-            if grumpy[i] == 0:
-                satisfied_sum += customers[i]
-
-        left = 0
-        window_sum, max_window_sum = 0, 0
-
-        for right in range(length):
-            if grumpy[right]:
-                window_sum += customers[right]
-
-            if right - left + 1 > minutes:
-                if grumpy[left]:
-                    window_sum -= customers[left]
-                left += 1
-            max_window_sum = max(window_sum, max_window_sum)
-        return satisfied_sum + max_window_sum
-
-    def maxSatisfied_1(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
         satisfied = 0
         left = 0
         window, max_window = 0, 0
