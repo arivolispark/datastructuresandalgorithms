@@ -18,7 +18,8 @@ class Solution:
         def build(start: int, end: int) -> TreeNode:
             if start > end:
                 return None
-            mid = (start + end) >> 1
+            #mid = (start + end) >> 1
+            mid = (start + end) // 2
             l_bst = build(start, mid - 1)
             r_bst = build(mid + 1, end)
             return TreeNode(result[mid], l_bst, r_bst)
