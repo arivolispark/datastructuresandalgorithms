@@ -29,19 +29,21 @@ class Solution:
 
         inorder(root, map)
         return root
-        
+
 
 def inorder(root: TreeNode, map: dict):
     curr = root
-    if curr:
-        inorder(curr.left, map)
-        inorder(curr.right, map)
-        curr.val = map[curr.val]
+    if curr is None:
+        return
+    inorder(curr.left, map)
+    inorder(curr.right, map)
+    curr.val = map[curr.val]
 
 
 def inorder_traversal(root: TreeNode, result: List[int]):
     curr = root
-    if curr:
-        inorder_traversal(curr.left, result)
-        inorder_traversal(curr.right, result)
-        result.append(curr.val)
+    if curr is None:
+        return
+    inorder_traversal(curr.left, result)
+    inorder_traversal(curr.right, result)
+    result.append(curr.val)
