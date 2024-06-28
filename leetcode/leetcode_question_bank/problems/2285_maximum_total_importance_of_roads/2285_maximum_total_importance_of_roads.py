@@ -7,8 +7,7 @@ class Solution:
             degrees[u] += 1
             degrees[v] += 1
   
-        degrees.sort()
-        degrees.reverse()
+        degrees.sort(reverse=True)
 
         for i, x in enumerate(degrees):
             total += (n - i) * x
