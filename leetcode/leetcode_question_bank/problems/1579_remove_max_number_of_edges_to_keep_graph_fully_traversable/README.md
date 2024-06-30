@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 1579 | Remove Max Number of Edges to Keep Graph Fully Traversable | Easy | 
