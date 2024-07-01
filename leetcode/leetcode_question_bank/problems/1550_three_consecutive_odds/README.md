@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | https://leetcode.com/problems/three-consecutive-odds/
+| 1550 | Three Consecutive Odds | Easy | https://leetcode.com/problems/three-consecutive-odds/
