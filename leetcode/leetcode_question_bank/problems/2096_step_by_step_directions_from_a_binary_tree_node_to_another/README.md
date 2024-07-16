@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2096 | Step-By-Step Directions From a Binary Tree Node to Another | Easy | 
+| 2096 | Step-By-Step Directions From a Binary Tree Node to Another | Easy | https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
