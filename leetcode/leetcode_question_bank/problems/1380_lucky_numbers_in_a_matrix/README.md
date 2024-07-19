@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| Lucky Numbers in a Matrix | Lucky Numbers in a Matrix | Easy | 
