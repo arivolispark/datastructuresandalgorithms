@@ -32,7 +32,6 @@ Constraints:
 """
 
 from typing import List
-from typing import Counter
 
 
 class Solution:
