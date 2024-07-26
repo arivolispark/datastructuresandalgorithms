@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2191 | Sort the Jumbled Numbers | Easy | 
+| 2191 | Sort the Jumbled Numbers | Medium | 
