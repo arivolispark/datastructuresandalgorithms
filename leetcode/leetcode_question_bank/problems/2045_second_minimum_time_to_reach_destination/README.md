@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy |
+| 2045 | Second Minimum Time to Reach Destination | Easy |
