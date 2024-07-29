@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 1395 | Tree | Medium | 
+| 1395 | Count Number of Teams | Medium | 
