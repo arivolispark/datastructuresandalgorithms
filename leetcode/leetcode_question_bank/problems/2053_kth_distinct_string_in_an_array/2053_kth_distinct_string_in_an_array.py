@@ -57,9 +57,7 @@ class Solution:
             if arr[i] in map and map[arr[i]] == 1:
                 result.append(arr[i])
 
-        if len(result) < k:
-            return ""
-        return result[k - 1]
+        return result[k - 1] if len(result) >= k else ""
 
 
 def test(got, expected):
