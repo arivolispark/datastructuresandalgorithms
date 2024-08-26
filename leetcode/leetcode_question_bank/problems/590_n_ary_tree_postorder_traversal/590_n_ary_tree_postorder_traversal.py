@@ -50,7 +50,6 @@ class Solution:
             if child_list:
                 for n in child_list:
                     dfs(n)
-            #print(root.val, end=" ")
             result.append(root.val)
 
         dfs(root)
