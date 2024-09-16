@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 539 | Minimum Time Difference | Easy | 
+| 539 | Minimum Time Difference | Medium | 
