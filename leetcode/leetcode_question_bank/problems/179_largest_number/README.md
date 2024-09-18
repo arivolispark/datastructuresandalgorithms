@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 179 | Largest Number | Easy | 
+| 179 | Largest Number | Medium | 
