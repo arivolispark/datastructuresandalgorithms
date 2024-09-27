@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 731 | My Calendar II | Easy | 
+| 731 | My Calendar II | Medium | 
