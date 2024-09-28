@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 641 | Design Circular Deque | Easy | 
+| 641 | Design Circular Deque | Medium | 
