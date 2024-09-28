@@ -50,6 +50,7 @@ Constraints:
 
 """
 
+
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -57,14 +58,14 @@ class MyCircularDeque:
         self.q = []
 
     def insertFront(self, value: int) -> bool:
-        if len(self.q) < self.max_size:
+        if not self.isFull():
             self.q.insert(0, value)
             return True
         else:
             return False
 
     def insertLast(self, value: int) -> bool:
-        if len(self.q) < self.max_size:
+        if not self.isFull():
             self.q.append(value)
             return True
         else:
