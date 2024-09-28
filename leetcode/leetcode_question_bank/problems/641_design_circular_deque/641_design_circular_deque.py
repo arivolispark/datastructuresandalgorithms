@@ -49,9 +49,6 @@ Constraints:
 3) At most 2000 calls will be made to insertFront, insertLast, deleteFront, deleteLast, getFront, getRear, isEmpty, isFull.
 
 """
-from typing import List
-from collections import *
-
 
 class MyCircularDeque:
 
