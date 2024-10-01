@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 1381 | 1381. Design a Stack With Increment Operation | Easy | 
+| 1381 | Design a Stack With Increment Operation | Easy | 
