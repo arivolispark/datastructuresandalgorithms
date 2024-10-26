@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2458 | Height of Binary Tree After Subtree Removal Queries | Easy |
+| 2458 | Height of Binary Tree After Subtree Removal Queries | Easy | https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/
