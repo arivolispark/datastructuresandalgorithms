@@ -55,31 +55,6 @@ class Solution:
         result += str(current_char_count) + current_char
         return result
 
-    def compressedString_1(self, word: str) -> str:
-        result = []
-        current_char = word[0]
-        current_char_count = 1
-
-        for i in range(1, len(word)):
-            if word[i] != current_char:
-                result.append(str(current_char_count))
-                result.append(current_char)
-
-                current_char = word[i]
-                current_char_count = 1
-            else:
-                current_char_count += 1
-                if current_char_count == 10:
-                    current_char_count -= 1
-                    result.append(str(current_char_count))
-                    result.append(current_char)
-                    current_char_count = 1
-
-        result.append(str(current_char_count))
-        result.append(current_char)
-
-        return ''.join(result)
-
 
 def test(got, expected):
     if got == expected:
