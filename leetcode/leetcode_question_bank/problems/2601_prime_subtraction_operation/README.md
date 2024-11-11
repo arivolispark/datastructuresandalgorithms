@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2601 | Prime Subtraction Operation | Easy | 
+| 2601 | Prime Subtraction Operation | Medium | 
