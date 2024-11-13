@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 2070 | Most Beautiful Item for Each Query | Easy | 
