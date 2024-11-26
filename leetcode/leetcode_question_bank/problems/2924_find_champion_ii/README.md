@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2924 | Find Champion II | Easy | 
+| 2924 | Find Champion II | Medium | 
