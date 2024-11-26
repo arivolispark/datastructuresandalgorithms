@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 773 | Sliding Puzzle | Easy | 
+| 773 | Sliding Puzzle | Hard | 
