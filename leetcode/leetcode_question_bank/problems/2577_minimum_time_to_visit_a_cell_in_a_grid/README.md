@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2577 | Minimum Time to Visit a Cell In a Grid | Easy | 
+| 2577 | Minimum Time to Visit a Cell In a Grid | Hard | 
