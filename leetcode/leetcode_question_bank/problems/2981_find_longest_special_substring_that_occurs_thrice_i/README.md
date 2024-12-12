@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| Find Longest Special Substring That Occurs Thrice I | Find Longest Special Substring That Occurs Thrice I | Easy | 
