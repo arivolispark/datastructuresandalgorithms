@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 1792 | Maximum Average Pass Ratio | Easy | 
+| 1792 | Maximum Average Pass Ratio | Medium | 
