@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Medium | 
+| 2466 | Count Ways To Build Good Strings | Medium | 
