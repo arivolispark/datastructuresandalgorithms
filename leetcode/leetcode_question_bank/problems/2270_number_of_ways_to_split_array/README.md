@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 2270 | Number of Ways to Split Array | Easy | 
