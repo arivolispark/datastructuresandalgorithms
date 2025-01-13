@@ -6,9 +6,7 @@ class Solution:
         counter = Counter(s)
         
         for k, v in counter.items():
-            if v <= 2:
-                result += v
-            elif v & 1:
+            if v & 1:
                 result += 1
             else:
                 result += 2
