@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 1368 | Minimum Cost to Make at Least One Valid Path in a Grid | Easy | 
