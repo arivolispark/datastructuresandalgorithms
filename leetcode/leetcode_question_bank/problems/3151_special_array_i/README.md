@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 3151 | Special Array I | Easy | 
