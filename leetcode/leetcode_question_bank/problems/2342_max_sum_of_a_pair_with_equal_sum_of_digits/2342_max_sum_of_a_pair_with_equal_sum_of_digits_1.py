@@ -39,7 +39,7 @@ from collections import defaultdict
 class Solution:
 
     def maximumSum(self, nums: List[int]) -> int:
-        result = -math.inf
+        result = -1
         map = {}
 
         for i in range(len(nums)):
@@ -50,9 +50,6 @@ class Solution:
                 v = map[s]
                 v.append(nums[i])
                 map[s] = v
-
-        if len(map) == len(nums):
-            return -1
 
         for k, v in map.items():
             if len(v) > 1:
