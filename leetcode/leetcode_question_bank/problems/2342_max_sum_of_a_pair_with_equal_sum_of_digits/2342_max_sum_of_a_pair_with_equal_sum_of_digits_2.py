@@ -32,13 +32,12 @@ Constraints:
 """
 
 from typing import List
-import math
 from collections import defaultdict
 
 
 class Solution:
 
-    def maximumSum_1(self, nums: List[int]) -> int:
+    def maximumSum(self, nums: List[int]) -> int:
         max_sum = -1
         digit_sum_max_num = defaultdict(int)
 
@@ -55,39 +54,6 @@ class Solution:
             digit_sum_max_num[digit_sum] = max(digit_sum_max_num[digit_sum], num)
 
         return max_sum
-
-    def maximumSum(self, nums: List[int]) -> int:
-        result = -math.inf
-        map = {}
-
-        for i in range(len(nums)):
-            s = sum_of_digits(nums[i])
-            if s not in map:
-                map[s] = [nums[i]]
-            else:
-                v = map[s]
-                v.append(nums[i])
-                map[s] = v
-
-        if len(map) == len(nums):
-            return -1
-
-        for k, v in map.items():
-            if len(v) > 1:
-                if len(v) > 2:
-                    v.sort()
-                s = v[-1] + v[-2]
-                result = max(result, s)
-
-        return result
-
-
-def sum_of_digits(num: int) -> int:
-    sum = 0
-    while num > 0:
-        sum += num % 10
-        num //= 10
-    return sum
 
 
 def test(got, expected):
