@@ -38,24 +38,6 @@ from collections import defaultdict
 
 class Solution:
 
-    def maximumSum_1(self, nums: List[int]) -> int:
-        max_sum = -1
-        digit_sum_max_num = defaultdict(int)
-
-        for num in nums:
-            digit_sum = 0
-            temp_num = num
-            while temp_num:
-                digit_sum += temp_num % 10
-                temp_num //= 10
-
-            if digit_sum in digit_sum_max_num:
-                max_sum = max(max_sum, digit_sum_max_num[digit_sum] + num)
-
-            digit_sum_max_num[digit_sum] = max(digit_sum_max_num[digit_sum], num)
-
-        return max_sum
-
     def maximumSum(self, nums: List[int]) -> int:
         result = -math.inf
         map = {}
