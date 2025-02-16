@@ -32,9 +32,6 @@ Constraints:
 """
 
 from typing import List
-import math
-from collections import defaultdict
-
 
 class Solution:
 
