@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 1415 | The k-th Lexicographical String of All Happy Strings of Length n | Easy | 
