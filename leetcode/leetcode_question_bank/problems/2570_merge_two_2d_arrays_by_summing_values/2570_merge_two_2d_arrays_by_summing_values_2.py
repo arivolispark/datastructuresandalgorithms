@@ -47,36 +47,6 @@ from typing import List
 
 class Solution:
 
-    def mergeArrays_1(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
-        result = []
-        map = {}
-
-        for i in range(len(nums1)):
-            start, end = nums1[i]
-            if start not in map:
-                map[start] = end
-            else:
-                v = map[start]
-                map[start] = v + end
-
-        for i in range(len(nums2)):
-            start, end = nums2[i]
-            if start not in map:
-                map[start] = end
-            else:
-                v = map[start]
-                map[start] = v + end
-
-        keys = []
-        for k, v in map.items():
-            keys.append(k)
-        keys.sort()
-
-        for i in range(len(keys)):
-            result.append([keys[i], map[keys[i]]])
-
-        return result
-
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
         result = []
         map = {}
