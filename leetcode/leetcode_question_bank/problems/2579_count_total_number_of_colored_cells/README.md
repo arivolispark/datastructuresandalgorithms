@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2579 | Count Total Number of Colored Cells | Easy | 
+| 2579 | Count Total Number of Colored Cells | Medium | 
