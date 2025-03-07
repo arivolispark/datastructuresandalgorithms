@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 2523 | 2523. Closest Prime Numbers in Range | Easy | 
