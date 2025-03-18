@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 2401 | Longest Nice Subarray | Easy | 
+| 2401 | Longest Nice Subarray | Medium | 
