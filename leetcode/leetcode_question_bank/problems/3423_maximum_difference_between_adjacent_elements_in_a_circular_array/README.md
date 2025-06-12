@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 3423 | 3423. Maximum Difference Between Adjacent Elements in a Circular Array | Easy | 
