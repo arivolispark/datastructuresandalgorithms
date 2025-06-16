@@ -1,3 +1,3 @@
 | Problem ID | Title | Difficulty | Reference
 | --- | --- | --- | ---
-| 100 | Same Tree | Easy | 
+| 1432 | Max Difference You Can Get From Changing an Integer | Easy | 
